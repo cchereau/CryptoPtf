@@ -1,0 +1,121 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*****************************               GENERALE                                            ***********************
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[DONE 01/09/2021] Intégrer la notion de fichier de configuration
+Revoir les menus et l'organisation des fenêtres
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       GRAPHIQUE                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Sur les graphiques de performance, ajouter les évènements type Achat / vente
+---> Indice :
+        double x = chart.getXYPlot().getWeight();
+        double y = 300;
+        XYPlot plotimage = chart.getXYPlot();
+        ImageIcon imageIconBuy = new ImageIcon(getClass().getClassLoader().getResource("Vente.png"));
+        ImageIcon imageIconSold = new ImageIcon(getClass().getClassLoader().getResource("Achat.png"));
+        XYAnnotation xyannotation = new XYImageAnnotation(x, y, imageIconSold.getImage());
+        renderer.addAnnotation(xyannotation, Layer.FOREGROUND);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       STRATEGIE                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Intégrer le fait les fees (attention fees différents parfois entre Achat et Vente)
+Ajouter une règle si la proposition de vente est à un prix supérieur à la dernière action d'achat (avec notion de paramétrage sur le délais)
+Ajouter les stratégie par portfeuille avec configuration de la stratégie
+Ecran stratégie, améliorer les dimensions des composants et la taille de la fenètre.
+Permettre de Dealer sur toutes les positions à partir du moment ou elles sont récupérées automatiquement chez Yahoo (actuellement uniquement possible sur position)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       FENETRE                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[DONE 18/04/2021] - Ecran Update price, lorsqu'on relance la progress bar ne se remet pas à zéro
+[DONE 21/03/2021] - Problème de la fenètre de prix qui s'affiche en haut à gauche
+[DONE 15/03/2021] - Ecran Stratégie, ajouter le graphique de Cross currency sous les propositions d'arbitrage
+[DONE 12/03/2021] - Problème de tri sur tous les tableaux ou se trouve de la couleur dans les chiffres %
+[DONE 11/03/2021] - Problème de la progressbar dans la gestion des prix
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       DEVISE                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Faire une écran de creation de devise et permettan de définir les caractéritiques de la devise (ex StableCoin)
+Pouvoir renomer une devise et les transaction - ex CANDORA --> ARA
+Dans l'écran de mise à jour des devises permettre un rechargement depuis une date définie et écrasée toutes les valeurs
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       TRANSACTION                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Revoir le problème d'affichage de l'écran de transaction capable d'ête ouvert du menu, du pop-up menu et du double-click sur l'écran position
+Faire le journal des transaction intégrées suite à import.
+[DONE 21/05/2021] - Pouvoir Intégrer le fichier de transaction de CoinBase à partir d'une information daiy extraite du fichier
+[DONE 21/04/2021] - Refonte du moteur de gestion des transactions
+[DONE 21/04/2021] - Ajouter dans les transactions le fait d'avoir des opérations de type ajustement
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                       POSITION                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Trouver un moyen de simuler une position sans activité versus la position avec activité
+Ajouter la vision de l'évolution du nombre de part dans le temps.
+Position plante lorsque rechargement de ptf après insertion d'un/ nouvelle postion (nvlle instrument) plantage à la fonction  public Double getPositionSpotPrice(enTypeQuotation typeQuotation) {
+[DONE 11/08/2021  Probleme sur le calcul des position moyenne achat & vente/
+[DONE 21/04/2021] - Refonte du moteur de gestion des Positions
+[DONE 21/03/2021] - Ajouter la notion de position ouverte aux transactions / stratégie versus position fermées aux transaction
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                    PORTEFEUILLE                    **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Ajouter les filtres dans l'affichage des positions du ptf sur les position ouvertes, les positions automatiquement mise à jour.
+Faire la sommes de ajustement
+[DONE 21/05/2021] - Fenetre des Portefeuille, ajouter le tri et less tataux avec des inidcateurs.
+[DONE 21/04/2021] - Refonte du moteur de gestion des portefeuille
+[DONE 20/03/2021] - Lors de la migration d'un portfeuille vers l'autre, si une position existe dans le portefeuille de desitnation, fusion des transactions
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+******************************                    FONCTION IMPORT                 **************************************
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[DONE 17/10/2021] - Supprimer les espaces dans la convert from XX to YY M mmm ccc... qui fait planter l'import
+
+
+
+
+
+Divers
+https://tukif.com/videos/230367/teen-europeenne-sodomisee-en-casting-avec-un-vieux.html
+https://www.reference-sexe.com/videos/francaise-hurle-car-la-sodomie-lui-fait-mal-au-cul-2924.html
+https://www.reference-sexe.com/videos/vieille-bourgeoise-infidele-goute-a-la-sodomie-10125.html
+https://tukif.com/videos/51448/francaise-salope-et-mature-enculee.html
+https://hotmovs.com/videos/1075993/horny-french-complete-film-b-r/?promo=14036
+https://tukif.com/videos/205301/mom-porn-sex-avec-une-cougar-en-manque-de-sperme.html
+https://tukif.com/videos/96652/vielle-en-manque-veut-se-faire-prendre-hard.html
+https://www.mrsexe.com/classiques/streaming/une-premiere-experience-de-folie-pour-cette-brunette-bien-salope-2168.html
+https://www.xvideos.com/video37054807/elle_suce_en_l_air_et_se_prend_des_doubles_penetration
+https://www.xvideos.com/video23853538/anale_aimer_fille_francaise_obtient_poings
+https://aphroditeporntube.com/video/53485/de-multiples-%C3%A9jaculations-f%C3%A9minines-bien-collantes-de-la-part-de-la-jeune-kenzie-reeves-vid%C3%A9o-porno-hd
+https://www.xnxx.com/video-1wze1f8/horny_old_sluts_fingering_and_fisting
+https://tukif.com/videos/210732/video-lesbienne-avec-anissa-kate-et-une-mature.html
+https://www.xnxx.com/video-sszm173/milf_gourmande_prend_une_bite_dans_le_cul
+https://www.xnxx.com/video-70cj7da/casting_sublime_milf_francaise_sodomisee_fistee_double_penetree_et_facialisee
+https://www.xnxx.com/video-gwexpc2/french_amateur_swingers_porn_exhibition_vol._1
+https://www.xvideos.com/video3267379/salope_obtient_son_anus_serre_serre
+https://www.xvideos.com/video36516327/lyna_cypher_adore_se_faire_fister_le_cul_et_gicle_comme_une_salope#show-related
+https://www.sexy-parade.com/video/la-vieille-salope-se-fait-defoncer-le-petit-trou-9325.html
+https://www.xvideos.com/video56103295/andrea_jeune_et_belle_salope_se_fait_defoncer_le_cul
+https://www.mrsexe.com/videos/streaming/un-mac-oblige-sa-femme-soumise-a-se-taper-des-clients-pendant-la-tempete-684.html
+https://www.xvideos.com/video41751215/skinny_teen_takes_messy_facial_yu
+https://www.xnxx.com/video-7ceo38c/milf_francaise_defoncee_et_fistee_chez_le_gyneco
+https://www.empflix.com/hairy-porn/excellent-fake-head-in-giant-hairy-pussy-fisting-2/video711237?utm_source=CJTube&utm_medium=General&utm_campaign=CJTube
+https://www.empflix.com/hairy-porn/excellent-fake-head-in-giant-hairy-pussy-fisting-1/video855308
+https://www.xnxx.com/video-txs0ve6/milf_timide_en_gangbang_se_fait_defoncer#show-related
+https://www.xvideos.com/video66116771/squirt_maison_et_fist_anal_avec_ado_amateur_francais
+https://www.xvideos.com/video43161413/sandrine_repousse_ses_limites_entre_baise_en_exterieur_et_double_penetration
+https://www.xvideos.com/video50284831/sandrine_se_fait_defoncer_a_la_chaine_par_trois_bites
+https://www.sexy-parade.com/video/le-jeunot-a-bien-baise-cette-cougar-en-manque-3135.html
+https://www.sexy-parade.com/video/corps-a-corps-fievreux-avec-une-mature-plate-230.html
+https://aphroditeporntube.com/video/52894/cette-beurette-super-salope-se-fait-fister-le-cul-avec-le-pied-et-sodomiser-durement-vid%C3%A9o-porno-hd
+https://www.xvideos.com/video3211822/apres_qu_elle_ait_la_chatte_et_le_cul_bien_baise
+https://www.xvideos.com/video43308169/flora_jourdan
+https://www.xvideos.com/video45746015/une_fille_mure_en_forme_seduit_le_jeune_etalon_dans_le_sexe_hardcore
+https://www.xvideos.com/video59752547/ambre_milf_sexy_en_trio_enchaine_les_doubles_penetrations
+https://www.xvideos.com/video27971569/delaissee_par_son_mari_sidonie_se_lache_devant_la_camera_french_illico

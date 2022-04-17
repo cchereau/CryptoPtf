@@ -1,0 +1,400 @@
+{
+  "Stocks": [
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "1INCH-EUR",
+      "Stock": "1INCH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "AAVE-EUR",
+      "Stock": "AAVE"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ACH-EUR",
+      "Stock": "ACH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ADA-EUR",
+      "Stock": "ADA"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ALGO-EUR",
+      "Stock": "ALGO"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "AMP-EUR",
+      "Stock": "AMP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ANKR-EUR",
+      "Stock": "ANKR"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ATOM-EUR",
+      "Stock": "ATOM"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BAT-EUR",
+      "Stock": "BAT"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BCH-EUR",
+      "Stock": "BCH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BNT-EUR",
+      "Stock": "BNT"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BSV-EUR",
+      "Stock": "BSV"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BTC-EUR",
+      "Stock": "BTC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "BTT-EUR",
+      "Stock": "BitTorrent"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "CELO-EUR",
+      "Stock": "CGLD"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "CHZ-EUR",
+      "Stock": "CHZ"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "COMP1-EUR",
+      "Stock": "COMP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "CRV-EUR",
+      "Stock": "CRV"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "CTSI-EUR",
+      "Stock": "CTSI"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "CVC-EUR",
+      "Stock": "CVC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "DAI-EUR",
+      "Stock": "DAI"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "DASH-EUR",
+      "Stock": "DASH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "DNT-EUR",
+      "Stock": "DNT"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "DOGE-EUR",
+      "Stock": "DOGE"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ENJ-EUR",
+      "Stock": "ENJ"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "EOS-EUR",
+      "Stock": "EOS"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ETC-EUR",
+      "Stock": "ETC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ETH-EUR",
+      "Stock": "ETH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ETH-EUR",
+      "Stock": "ETH2"
+    },
+    {
+      "Refresh": false,
+      "Devise": "Eur",
+      "Ticker": "EUR",
+      "Stock": "EUR"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "FET-EUR",
+      "Stock": "FET"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "FIL-EUR",
+      "Stock": "FIL"
+    },
+    {
+      "Refresh": true,
+      "Devise": "USD",
+      "Ticker": "FORTH-USD",
+      "Stock": "FORTH"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "GRT1-EUR",
+      "Stock": "GRT"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ICP-EUR",
+      "Stock": "ICP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "IOTX-EUR",
+      "Stock": "IOTX"
+    },
+    {
+      "Refresh": true,
+      "Devise": "USD",
+      "Ticker": "KEEP-USD",
+      "Stock": "KEEP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "EUR",
+      "Ticker": "KNCL-EUR",
+      "Stock": "KNC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "LINK-EUR",
+      "Stock": "LINK"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "LRC-EUR",
+      "Stock": "LRC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "LTC-EUR",
+      "Stock": "LTC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "MANA-EUR",
+      "Stock": "MANA"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "MATIC-EUR",
+      "Stock": "MATIC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "MIR1-EUR",
+      "Stock": "MIR"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "MKR-EUR",
+      "Stock": "MKR"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "NKN-EUR",
+      "Stock": "NKN"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "NU-EUR",
+      "Stock": "NU"
+    },
+    {
+      "Refresh": true,
+      "Devise": "USD",
+      "Ticker": "OGN-USD",
+      "Stock": "OGN"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "OMG-EUR",
+      "Stock": "OMG"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "OXT-EUR",
+      "Stock": "OXT"
+    },
+    {
+      "Refresh": false,
+      "Devise": "Eur",
+      "Ticker": "XXX-EUR",
+      "Stock": "REN"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "REP-EUR",
+      "Stock": "REP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "SHIB-EUR",
+      "Stock": "SHIB"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "SKL-EUR",
+      "Stock": "SKL"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "STORJ-EUR",
+      "Stock": "STORJ"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "UMA-EUR",
+      "Stock": "UMA"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "UNI1-EUR",
+      "Stock": "UNI"
+    },
+    {
+      "Refresh": false,
+      "Devise": "Eur",
+      "Ticker": "USDC-EUR",
+      "Stock": "USDC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "VGX-EUR",
+      "Stock": "VGX"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "XLM-EUR",
+      "Stock": "XLM"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "XRP-EUR",
+      "Stock": "XRP"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "XTZ-EUR",
+      "Stock": "XTZ"
+    },
+    {
+      "Refresh": true,
+      "Devise": "USD",
+      "Ticker": "XYO-USD",
+      "Stock": "XYO"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ZEC-EUR",
+      "Stock": "ZEC"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ZEN-EUR",
+      "Stock": "ZEN"
+    },
+    {
+      "Refresh": true,
+      "Devise": "Eur",
+      "Ticker": "ZRX-EUR",
+      "Stock": "ZRX"
+    }
+  ]
+}
