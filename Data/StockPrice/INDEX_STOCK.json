@@ -343,7 +343,7 @@
       "Stock": "UNI"
     },
     {
-      "Refresh": false,
+      "Refresh": true,
       "Devise": "Eur",
       "Ticker": "USDC-EUR",
       "Stock": "USDC"

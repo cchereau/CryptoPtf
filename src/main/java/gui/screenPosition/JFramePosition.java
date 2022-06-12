@@ -5,7 +5,6 @@ import global.fonction.FntGUI;
 import gui.commonComponent.JPanelGraphique.JPanelStockGraph;
 import gui.commonComponent.JPanelTable.Transaction.JPanelTableTransaction;
 import gui.commonComponent.JPanelTable.Transaction.ListnerInstrument;
-import gui.screenPortfolio.JPanelPortfolioPositionsTable;
 import ptfManagement.Portefeuille;
 import ptfManagement.Position;
 
@@ -20,7 +19,7 @@ public class JFramePosition extends JFrame implements ListnerInstrument {
     private final JPanelPositionSynthese panelPositionSynthese = new JPanelPositionSynthese();
     private final JPanelTableTransaction panelPostionTradeTable = new JPanelTableTransaction();
     private final JPanelPositionStrategieStrategieAction panelPositionStrategie = new JPanelPositionStrategieStrategieAction();
-    private final JPanelPortfolioPositionsTable panelPositionComposition = new JPanelPortfolioPositionsTable();
+    private final JPanelComposition panelPositionComposition = new JPanelComposition();
     private final JTabbedPane tabbedPane = new JTabbedPane();
 
     private Integer index;
@@ -131,8 +130,7 @@ public class JFramePosition extends JFrame implements ListnerInstrument {
         panelPostionTradeTable.addTransactions(position.getTransactions(EnumCrypto.enTypeTransaction.all));
 
         // refriachissement de la composition
-        Portefeuille data = global.fonction.gblFunction.getPositionComposition(position.getInstName(), ptf, EnumCrypto.enTypeMontant.MontantWithFees);
-        panelPositionComposition.OnPtfChanged(data);
+        panelPositionComposition.setPosition(ptf, position);
 
         // rafraichissement de la stratégie
         panelPositionStrategie.setPosition(ptf, position);

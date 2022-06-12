@@ -1,5 +1,9 @@
 package ptfManagement;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// GESTION DES POSITIONS ISSUES D'UNE LISTE DE TRANSACTION SUR UN INSTRUMENT
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 import global.EnumCrypto;
 import global.EnumCrypto.*;
 import global.GlobalData;
@@ -35,7 +39,6 @@ public class Position implements Cloneable {
             return null;
         }
     }
-
     public Transaction getTransaction(enTypeDate typeDate, enTypeTransaction typeTransaction) {
         // récupération de la liste des transaction d'un type
         ArrayList<Transaction> arrTransactions = getTransactions(typeTransaction);
@@ -48,7 +51,6 @@ public class Position implements Cloneable {
                 return null;
         }
     }
-
     public ArrayList<Transaction> getTransactions(enTypeTransaction typeTransaction) {
         if (typeTransaction.equals(enTypeTransaction.all))
             return transactions;
@@ -60,7 +62,6 @@ public class Position implements Cloneable {
         for (Transaction transaction : transactions)
             addTransaction(transaction);
     }
-
     public void addTransaction(Transaction transaction) {
         // récupération de la dernière valeur de la transaction
         if (transactions.size() != 0) {
@@ -76,7 +77,6 @@ public class Position implements Cloneable {
         // ajout de l'ordre dans les transactions
         transactions.sort(Transaction.ComparatorDate);
     }
-
     public void removeTransaction(LocalDateTime dateDeb, LocalDateTime dateFin, ArrayList<EnumCrypto.enTypeTransaction> typeTransactionsInScope) {
         Predicate<Transaction> transactionPredicateDeb = (Transaction p) -> p.getDateTransaction().isAfter(dateDeb.minusSeconds(1));
         Predicate<Transaction> transactionPredicateFin = (Transaction p) -> p.getDateTransaction().isBefore(dateFin.plusSeconds(1));
@@ -84,17 +84,10 @@ public class Position implements Cloneable {
         transactions.removeIf(transactionPredicateFin.and(transactionPredicateDeb).and(transacationInScope));
     }
 
-    public void removeTransaction(LocalDateTime dateTransaction) {
-        Predicate<Transaction> transactionPredicate = (Transaction p) -> p.getDateTransaction().equals(dateTransaction);
-        transactions.removeIf(transactionPredicate);
-        transactions.sort(Transaction.ComparatorDate);
-    }
-
     // rattachement au pricing de l'instrument
     public Stock getStockPrice() {
         return this.stock;
     }
-
     public void setStockPrice(Stock stock) {
         this.stock = stock;
     }
@@ -152,7 +145,6 @@ public class Position implements Cloneable {
             return 0d;
         }
     }
-
     public Double getPositionSpotPrice(enTypeQuotation typeQuotation) {
         try {
             return FntFinancial.arrondi(stock.getQuotation(stock.getPriceTypeDate(enTypeDate.lastDate), typeQuotation), 6);
@@ -185,11 +177,9 @@ public class Position implements Cloneable {
         }
         return LocalDateTime.now();
     }
-
     public Boolean isPositionOpen() {
         return isPositionOpen;
     }
-
     public void isPositionOpen(Boolean positionOpen) {
         isPositionOpen = positionOpen;
     }
@@ -201,12 +191,10 @@ public class Position implements Cloneable {
     public Position clone() {
         Position position = null;
         try {
-            // On récupère l'instance à renvoyer par l'appel de la
-            // méthode super.clone()
+            // On récupère l'instance à renvoyer par l'appel de la méthode super.clone()
             position = (Position) super.clone();
         } catch (CloneNotSupportedException cnse) {
-            // Ne devrait jamais arriver car nous implémentons
-            // l'interface Cloneable
+            // Ne devrait jamais arriver car nous implémentons l'interface Cloneable
             cnse.printStackTrace(System.err);
         }
         // on renvoie le clone

@@ -1,12 +1,20 @@
 {
   "Portefeuilles": [
     {
-      "MontantSpotEuro": "53.79",
       "BalanceEuro": "-160.02",
+      "MontantInitial": "-144.99",
+      "LiquiditeEuro": {
+        "Mouvements": [],
+        "Total": "0.0"
+      },
+      "MontantSpotEuro": "32.32",
+      "MontantFeesEuro": "0.0",
+      "Nom": "ACTIF - CUSTOM GESTION",
       "Positions": [
         {
           "PrixMoyen": "0.0064",
-          "ProfitAndLost": "-105.62",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "-120.01",
           "SpotQuantite": "22650.887099",
           "Transactions": [
             {
@@ -30,12 +38,12 @@
               "Notes": "Optional[Ajustement 15\/40\/02021 08:40:22]"
             }
           ],
-          "Code": "BitTorrent",
-          "OpenOnStrategie": false
+          "Code": "BitTorrent"
         },
         {
           "PrixMoyen": "0.750503",
-          "ProfitAndLost": "-0.6",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "-7.68",
           "SpotQuantite": "19.9999",
           "Transactions": [
             {
@@ -49,25 +57,25 @@
               "Notes": "Saisie via écran le :31\/07\/2021 11:35:53"
             }
           ],
-          "Code": "XRP",
-          "OpenOnStrategie": false
+          "Code": "XRP"
         }
-      ],
-      "MontantInitial": "-144.99",
-      "LiquiditeEuro": {
-        "Total": "0.0",
-        "Mouvements": []
-      },
-      "Nom": "ACTIF - CUSTOM GESTION",
-      "MontantFeesEuro": "0.0"
+      ]
     },
     {
-      "MontantSpotEuro": "13422.69",
-      "BalanceEuro": "13300.5",
+      "BalanceEuro": "13322.13",
+      "MontantInitial": "7669.58",
+      "LiquiditeEuro": {
+        "Mouvements": [],
+        "Total": "0.0"
+      },
+      "MontantSpotEuro": "6877.87",
+      "MontantFeesEuro": "1571.97",
+      "Nom": "COINBASE",
       "Positions": [
         {
           "PrixMoyen": "4.143862",
-          "ProfitAndLost": "-262.17",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-359.74",
           "SpotQuantite": "146.266936",
           "Transactions": [
             {
@@ -161,13 +169,13 @@
               "Notes": "Convert 31.08905561 1INCH to 79.20289382 DAI"
             }
           ],
-          "Code": "1INCH",
-          "OpenOnStrategie": true
+          "Code": "1INCH"
         },
         {
           "PrixMoyen": "0.160682",
-          "ProfitAndLost": "-58.05",
-          "SpotQuantite": "9299.996952",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-245.49",
+          "SpotQuantite": "9299.996953",
           "Transactions": [
             {
               "PrixShare": "0.084519",
@@ -361,9 +369,9 @@
             },
             {
               "PrixShare": "0.035298",
-              "EurSubTotal": 78.27809858496,
+              "EurSubTotal": 78.28,
               "Action": "buy",
-              "EurTotal": 78.27809858496,
+              "EurTotal": 78.28,
               "NbreShare": "2217.63552",
               "Fees": "0.0",
               "Date": "18-03-2022 17:53:19",
@@ -380,13 +388,13 @@
               "Notes": "Convert 2023.6067876 ACH to 25.58222506 KNC"
             }
           ],
-          "Code": "ACH",
-          "OpenOnStrategie": true
+          "Code": "ACH"
         },
         {
-          "PrixMoyen": "6.041945",
-          "ProfitAndLost": "79.46",
-          "SpotQuantite": "306.199389",
+          "PrixMoyen": "3.801801",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-3.78",
+          "SpotQuantite": "513.672333",
           "Transactions": [
             {
               "PrixShare": "0.9998",
@@ -670,32 +678,162 @@
             },
             {
               "PrixShare": "0.82494",
-              "EurSubTotal": 78.47997890004,
+              "EurSubTotal": 78.48,
               "Action": "buy",
-              "EurTotal": 78.47997890004,
+              "EurTotal": 78.48,
               "NbreShare": "95.134166",
               "Fees": "0.0",
               "Date": "03-03-2022 09:39:22",
               "Notes": "Convert 95.134166 ADA to 31.07124727 KNC"
             },
             {
-              "PrixShare": "1.046654",
-              "EurSubTotal": 78.23995542886499,
+              "PrixShare": "1.046655",
+              "EurSubTotal": 78.24,
               "Action": "sell",
-              "EurTotal": 79.839955428865,
+              "EurTotal": 79.84,
               "NbreShare": "74.752383",
               "Fees": "1.6000000000000085",
               "Date": "24-03-2022 19:41:16",
               "Notes": "Converted 74.752383 ADA to 0.04218947 MKR"
+            },
+            {
+              "PrixShare": "0.83",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.106397",
+              "Fees": "0.0",
+              "Date": "23-04-2022 14:20:38",
+              "Notes": "Received 0.106397 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.82",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.107028",
+              "Fees": "0.0",
+              "Date": "24-04-2022 09:05:14",
+              "Notes": "Received 0.107028 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.78",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.100552",
+              "Fees": "0.0",
+              "Date": "26-04-2022 17:40:18",
+              "Notes": "Received 0.100552 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.74",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.108689",
+              "Fees": "0.0",
+              "Date": "03-05-2022 02:52:01",
+              "Notes": "Received 0.108689 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.74",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.108258",
+              "Fees": "0.0",
+              "Date": "06-05-2022 15:26:48",
+              "Notes": "Received 0.108258 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.55",
+              "EurSubTotal": 0.06,
+              "Action": "received",
+              "EurTotal": 0.06,
+              "NbreShare": "0.114513",
+              "Fees": "0.0",
+              "Date": "11-05-2022 15:34:06",
+              "Notes": "Received 0.114513 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.494792",
+              "EurSubTotal": 101.93,
+              "Action": "buy",
+              "EurTotal": 101.93,
+              "NbreShare": "206.005459",
+              "Fees": "0.0",
+              "Date": "19-05-2022 14:49:55",
+              "Notes": "Convert 206.005459 ADA to 15.74886608 LINK"
+            },
+            {
+              "PrixShare": "0.5",
+              "EurSubTotal": 0.06,
+              "Action": "received",
+              "EurTotal": 0.06,
+              "NbreShare": "0.11278",
+              "Fees": "0.0",
+              "Date": "19-05-2022 15:27:12",
+              "Notes": "Received 0.11278 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.5",
+              "EurSubTotal": 0.05,
+              "Action": "received",
+              "EurTotal": 0.05,
+              "NbreShare": "0.10977",
+              "Fees": "0.0",
+              "Date": "21-05-2022 15:00:35",
+              "Notes": "Received 0.10977 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.43",
+              "EurSubTotal": 0.05,
+              "Action": "received",
+              "EurTotal": 0.05,
+              "NbreShare": "0.11189",
+              "Fees": "0.0",
+              "Date": "27-05-2022 14:46:37",
+              "Notes": "Received 0.11189 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.57",
+              "EurSubTotal": 0.07,
+              "Action": "received",
+              "EurTotal": 0.07,
+              "NbreShare": "0.114663",
+              "Fees": "0.0",
+              "Date": "31-05-2022 14:55:00",
+              "Notes": "Received 0.114663 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.52",
+              "EurSubTotal": 0.1,
+              "Action": "received",
+              "EurTotal": 0.1,
+              "NbreShare": "0.182785",
+              "Fees": "0.0",
+              "Date": "05-06-2022 16:38:42",
+              "Notes": "Received 0.182785 ADA from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.54",
+              "EurSubTotal": 0.1,
+              "Action": "received",
+              "EurTotal": 0.1,
+              "NbreShare": "0.190159",
+              "Fees": "0.0",
+              "Date": "10-06-2022 16:58:04",
+              "Notes": "Received 0.190159 ADA from Coinbase Rewards"
             }
           ],
-          "Code": "ADA",
-          "OpenOnStrategie": true
+          "Code": "ADA"
         },
         {
-          "PrixMoyen": "5.196826",
-          "ProfitAndLost": "509.26",
-          "SpotQuantite": "535.480673",
+          "PrixMoyen": "5.148815",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "338.73",
+          "SpotQuantite": "541.106993",
           "Transactions": [
             {
               "PrixShare": "0.527226",
@@ -5379,9 +5517,9 @@
             },
             {
               "PrixShare": "0.75",
-              "EurSubTotal": 0.035694000000000004,
+              "EurSubTotal": 0.04,
               "Action": "received",
-              "EurTotal": 0.035694000000000004,
+              "EurTotal": 0.04,
               "NbreShare": "0.047592",
               "Fees": "0.0",
               "Date": "28-02-2022 20:40:56",
@@ -5389,9 +5527,9 @@
             },
             {
               "PrixShare": "0.77",
-              "EurSubTotal": 0.03664969,
+              "EurSubTotal": 0.04,
               "Action": "received",
-              "EurTotal": 0.03664969,
+              "EurTotal": 0.04,
               "NbreShare": "0.047597",
               "Fees": "0.0",
               "Date": "01-03-2022 18:05:38",
@@ -5399,9 +5537,9 @@
             },
             {
               "PrixShare": "0.74",
-              "EurSubTotal": 0.035225479999999997,
+              "EurSubTotal": 0.04,
               "Action": "received",
-              "EurTotal": 0.035225479999999997,
+              "EurTotal": 0.04,
               "NbreShare": "0.047602",
               "Fees": "0.0",
               "Date": "02-03-2022 15:10:46",
@@ -5409,9 +5547,9 @@
             },
             {
               "PrixShare": "0.72",
-              "EurSubTotal": 0.03427776,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.03427776,
+              "EurTotal": 0.03,
               "NbreShare": "0.047608",
               "Fees": "0.0",
               "Date": "03-03-2022 18:00:44",
@@ -5419,9 +5557,9 @@
             },
             {
               "PrixShare": "0.74",
-              "EurSubTotal": 0.03523362,
+              "EurSubTotal": 0.04,
               "Action": "received",
-              "EurTotal": 0.03523362,
+              "EurTotal": 0.04,
               "NbreShare": "0.047613",
               "Fees": "0.0",
               "Date": "04-03-2022 14:06:05",
@@ -5429,9 +5567,9 @@
             },
             {
               "PrixShare": "0.7",
-              "EurSubTotal": 0.033333299999999996,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.033333299999999996,
+              "EurTotal": 0.03,
               "NbreShare": "0.047619",
               "Fees": "0.0",
               "Date": "05-03-2022 16:19:23",
@@ -5439,9 +5577,9 @@
             },
             {
               "PrixShare": "0.69",
-              "EurSubTotal": 0.03285987,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.03285987,
+              "EurTotal": 0.03,
               "NbreShare": "0.047623",
               "Fees": "0.0",
               "Date": "06-03-2022 12:38:49",
@@ -5449,9 +5587,9 @@
             },
             {
               "PrixShare": "0.7",
-              "EurSubTotal": 0.033340299999999996,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.033340299999999996,
+              "EurTotal": 0.03,
               "NbreShare": "0.047629",
               "Fees": "0.0",
               "Date": "07-03-2022 16:35:09",
@@ -5459,9 +5597,9 @@
             },
             {
               "PrixShare": "0.68",
-              "EurSubTotal": 0.03239112,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.03239112,
+              "EurTotal": 0.03,
               "NbreShare": "0.047634",
               "Fees": "0.0",
               "Date": "08-03-2022 10:59:56",
@@ -5469,9 +5607,9 @@
             },
             {
               "PrixShare": "0.7",
-              "EurSubTotal": 0.033347999999999996,
+              "EurSubTotal": 0.03,
               "Action": "received",
-              "EurTotal": 0.033347999999999996,
+              "EurTotal": 0.03,
               "NbreShare": "0.04764",
               "Fees": "0.0",
               "Date": "09-03-2022 16:26:32",
@@ -5479,9 +5617,9 @@
             },
             {
               "PrixShare": "0.66",
-              "EurSubTotal": 0.00359964,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.00359964,
+              "EurTotal": 0.0,
               "NbreShare": "0.005454",
               "Fees": "0.0",
               "Date": "10-03-2022 17:46:34",
@@ -5489,9 +5627,9 @@
             },
             {
               "PrixShare": "0.65",
-              "EurSubTotal": 0.0035451,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0035451,
+              "EurTotal": 0.0,
               "NbreShare": "0.005454",
               "Fees": "0.0",
               "Date": "11-03-2022 15:27:52",
@@ -5499,9 +5637,9 @@
             },
             {
               "PrixShare": "0.65",
-              "EurSubTotal": 0.0035451,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0035451,
+              "EurTotal": 0.0,
               "NbreShare": "0.005454",
               "Fees": "0.0",
               "Date": "12-03-2022 14:48:22",
@@ -5509,9 +5647,9 @@
             },
             {
               "PrixShare": "0.64",
-              "EurSubTotal": 0.0034905599999999998,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0034905599999999998,
+              "EurTotal": 0.0,
               "NbreShare": "0.005454",
               "Fees": "0.0",
               "Date": "13-03-2022 14:54:46",
@@ -5519,9 +5657,9 @@
             },
             {
               "PrixShare": "0.63",
-              "EurSubTotal": 0.00343665,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.00343665,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "14-03-2022 19:56:51",
@@ -5529,9 +5667,9 @@
             },
             {
               "PrixShare": "0.63",
-              "EurSubTotal": 0.00343665,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.00343665,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "15-03-2022 15:05:30",
@@ -5539,9 +5677,9 @@
             },
             {
               "PrixShare": "0.64",
-              "EurSubTotal": 0.0034912,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0034912,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "16-03-2022 18:24:15",
@@ -5549,9 +5687,9 @@
             },
             {
               "PrixShare": "0.66",
-              "EurSubTotal": 0.0036003,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0036003,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "17-03-2022 13:36:13",
@@ -5559,9 +5697,9 @@
             },
             {
               "PrixShare": "0.67",
-              "EurSubTotal": 0.0036548500000000003,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0036548500000000003,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "18-03-2022 12:04:06",
@@ -5569,9 +5707,9 @@
             },
             {
               "PrixShare": "0.7",
-              "EurSubTotal": 0.0038184999999999994,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0038184999999999994,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "19-03-2022 16:15:43",
@@ -5579,9 +5717,9 @@
             },
             {
               "PrixShare": "0.67",
-              "EurSubTotal": 0.0036548500000000003,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0036548500000000003,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "20-03-2022 16:59:14",
@@ -5589,9 +5727,9 @@
             },
             {
               "PrixShare": "0.72",
-              "EurSubTotal": 0.0039276,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0039276,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "21-03-2022 16:31:59",
@@ -5599,9 +5737,9 @@
             },
             {
               "PrixShare": "0.75",
-              "EurSubTotal": 0.004091249999999999,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.004091249999999999,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "22-03-2022 17:35:00",
@@ -5609,9 +5747,9 @@
             },
             {
               "PrixShare": "0.75",
-              "EurSubTotal": 0.004091249999999999,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.004091249999999999,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "23-03-2022 17:34:11",
@@ -5619,9 +5757,9 @@
             },
             {
               "PrixShare": "0.79",
-              "EurSubTotal": 0.00430945,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.00430945,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "24-03-2022 11:46:50",
@@ -5629,9 +5767,9 @@
             },
             {
               "PrixShare": "0.82",
-              "EurSubTotal": 0.0044731,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.0044731,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "25-03-2022 12:27:47",
@@ -5639,9 +5777,9 @@
             },
             {
               "PrixShare": "0.83",
-              "EurSubTotal": 0.004527649999999999,
+              "EurSubTotal": 0.0,
               "Action": "received",
-              "EurTotal": 0.004527649999999999,
+              "EurTotal": 0.0,
               "NbreShare": "0.005455",
               "Fees": "0.0",
               "Date": "26-03-2022 17:23:27",
@@ -5856,14 +5994,134 @@
               "Fees": "0.0",
               "Date": "16-04-2022 16:51:13",
               "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.68",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "17-04-2022 15:14:58",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.67",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "18-04-2022 15:16:25",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.71",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "19-04-2022 15:15:59",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.68",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "20-04-2022 21:07:40",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.69",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "21-04-2022 18:38:32",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.67",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "22-04-2022 11:00:13",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.66",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "23-04-2022 22:21:42",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.66",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006587",
+              "Fees": "0.0",
+              "Date": "24-04-2022 19:10:03",
+              "Notes": "Received 0.006587 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.65",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006588",
+              "Fees": "0.0",
+              "Date": "26-04-2022 01:45:34",
+              "Notes": "Received 0.006588 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.62",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006588",
+              "Fees": "0.0",
+              "Date": "26-04-2022 18:03:16",
+              "Notes": "Received 0.006588 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.64",
+              "EurSubTotal": 0.0,
+              "Action": "received",
+              "EurTotal": 0.0,
+              "NbreShare": "0.006588",
+              "Fees": "0.0",
+              "Date": "27-04-2022 15:07:32",
+              "Notes": "Received 0.006588 ALGO from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "0.6",
+              "EurSubTotal": 3.33,
+              "Action": "received",
+              "EurTotal": 3.33,
+              "NbreShare": "5.55386",
+              "Fees": "0.0",
+              "Date": "05-05-2022 22:10:37",
+              "Notes": "Received 5.55386 ALGO from Coinbase Rewards"
             }
           ],
-          "Code": "ALGO",
-          "OpenOnStrategie": true
+          "Code": "ALGO"
         },
         {
           "PrixMoyen": "0.087424",
-          "ProfitAndLost": "-104.22",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-223.55",
           "SpotQuantite": "11342.531178",
           "Transactions": [
             {
@@ -6018,21 +6276,21 @@
             },
             {
               "PrixShare": "0.022664",
-              "EurSubTotal": 78.28710148908,
+              "EurSubTotal": 78.29,
               "Action": "buy",
-              "EurTotal": 78.28710148908,
+              "EurTotal": 78.29,
               "NbreShare": "3454.249095",
               "Fees": "0.0",
               "Date": "13-03-2022 15:55:59",
               "Notes": "Convert 3454.24909561 AMP to 0.58510326 ZEC"
             }
           ],
-          "Code": "AMP",
-          "OpenOnStrategie": true
+          "Code": "AMP"
         },
         {
           "PrixMoyen": "0.17865",
-          "ProfitAndLost": "-127.55",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-286.88",
           "SpotQuantite": "4322.843427",
           "Transactions": [
             {
@@ -6146,13 +6404,13 @@
               "Notes": "Convert 981.69916778 ANKR to 250.23267523 CVC"
             }
           ],
-          "Code": "ANKR",
-          "OpenOnStrategie": true
+          "Code": "ANKR"
         },
         {
-          "PrixMoyen": "265.685755",
-          "ProfitAndLost": "1065.85",
-          "SpotQuantite": "12.854848",
+          "PrixMoyen": "263.851452",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "880.33",
+          "SpotQuantite": "12.948498",
           "Transactions": [
             {
               "PrixShare": "4.582142",
@@ -7306,9 +7564,9 @@
             },
             {
               "PrixShare": "30.251793",
-              "EurSubTotal": 78.16999782434699,
+              "EurSubTotal": 78.17,
               "Action": "sell",
-              "EurTotal": 79.77999782434699,
+              "EurTotal": 79.78,
               "NbreShare": "2.583979",
               "Fees": "1.6099999999999994",
               "Date": "04-03-2022 07:51:41",
@@ -7316,9 +7574,9 @@
             },
             {
               "PrixShare": "28.92",
-              "EurSubTotal": 0.69844692,
+              "EurSubTotal": 0.7,
               "Action": "received",
-              "EurTotal": 0.69844692,
+              "EurTotal": 0.7,
               "NbreShare": "0.024151",
               "Fees": "0.0",
               "Date": "04-03-2022 19:36:38",
@@ -7326,9 +7584,9 @@
             },
             {
               "PrixShare": "25.2",
-              "EurSubTotal": 0.4797828,
+              "EurSubTotal": 0.48,
               "Action": "received",
-              "EurTotal": 0.4797828,
+              "EurTotal": 0.48,
               "NbreShare": "0.019039",
               "Fees": "0.0",
               "Date": "11-03-2022 18:48:37",
@@ -7336,9 +7594,9 @@
             },
             {
               "PrixShare": "26.04",
-              "EurSubTotal": 0.22058483999999998,
+              "EurSubTotal": 0.22,
               "Action": "received",
-              "EurTotal": 0.22058483999999998,
+              "EurTotal": 0.22,
               "NbreShare": "0.008471",
               "Fees": "0.0",
               "Date": "19-03-2022 08:56:47",
@@ -7346,9 +7604,9 @@
             },
             {
               "PrixShare": "25.46",
-              "EurSubTotal": 0.20319626000000002,
+              "EurSubTotal": 0.2,
               "Action": "received",
-              "EurTotal": 0.20319626000000002,
+              "EurTotal": 0.2,
               "NbreShare": "0.007981",
               "Fees": "0.0",
               "Date": "25-03-2022 19:31:29",
@@ -7383,14 +7641,74 @@
               "Fees": "0.0",
               "Date": "15-04-2022 16:31:45",
               "Notes": "Received 0.009647 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "16.89",
+              "EurSubTotal": 0.05,
+              "Action": "received",
+              "EurTotal": 0.05,
+              "NbreShare": "0.003223",
+              "Fees": "0.0",
+              "Date": "03-05-2022 00:14:43",
+              "Notes": "Received 0.003223 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "16.67",
+              "EurSubTotal": 0.48,
+              "Action": "received",
+              "EurTotal": 0.48,
+              "NbreShare": "0.028823",
+              "Fees": "0.0",
+              "Date": "03-05-2022 21:22:57",
+              "Notes": "Received 0.028823 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "10.85",
+              "EurSubTotal": 0.21,
+              "Action": "received",
+              "EurTotal": 0.21,
+              "NbreShare": "0.019566",
+              "Fees": "0.0",
+              "Date": "17-05-2022 03:21:22",
+              "Notes": "Received 0.019566 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "10.54",
+              "EurSubTotal": 0.16,
+              "Action": "received",
+              "EurTotal": 0.16,
+              "NbreShare": "0.015409",
+              "Fees": "0.0",
+              "Date": "24-05-2022 02:35:46",
+              "Notes": "Received 0.015409 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "8.67",
+              "EurSubTotal": 0.16,
+              "Action": "received",
+              "EurTotal": 0.16,
+              "NbreShare": "0.017959",
+              "Fees": "0.0",
+              "Date": "27-05-2022 17:59:13",
+              "Notes": "Received 0.017959 ATOM from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "8.48",
+              "EurSubTotal": 0.07,
+              "Action": "received",
+              "EurTotal": 0.07,
+              "NbreShare": "0.008669",
+              "Fees": "0.0",
+              "Date": "03-06-2022 17:43:38",
+              "Notes": "Received 0.008669 ATOM from Coinbase Rewards"
             }
           ],
-          "Code": "ATOM",
-          "OpenOnStrategie": true
+          "Code": "ATOM"
         },
         {
           "PrixMoyen": "4.423685",
-          "ProfitAndLost": "586.07",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "417.39",
           "SpotQuantite": "467.130874",
           "Transactions": [
             {
@@ -7834,12 +8152,12 @@
               "Notes": "Convert 101.906111 BAT to 184.82353212 CTSI"
             }
           ],
-          "Code": "BAT",
-          "OpenOnStrategie": true
+          "Code": "BAT"
         },
         {
           "PrixMoyen": "7016.346478",
-          "ProfitAndLost": "-91.57",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-259.18",
           "SpotQuantite": "1.050685",
           "Transactions": [
             {
@@ -8503,12 +8821,12 @@
               "Notes": "Convert 0.23457647 BCH to 290.69767442 SKL"
             }
           ],
-          "Code": "BCH",
-          "OpenOnStrategie": true
+          "Code": "BCH"
         },
         {
           "PrixMoyen": "14.007405",
-          "ProfitAndLost": "332.59",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "216.88",
           "SpotQuantite": "117.495707",
           "Transactions": [
             {
@@ -8792,11 +9110,11 @@
               "Notes": "Convert 16.11692618 BNT to 0.30517366 ZEC"
             }
           ],
-          "Code": "BNT",
-          "OpenOnStrategie": true
+          "Code": "BNT"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "-103.32",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -8861,13 +9179,13 @@
               "Notes": "Sent 0.4650 BSV to qzxzrutctvaxldrptlgyhd90ndjzhw09vul2kl2wmk"
             }
           ],
-          "Code": "BSV",
-          "OpenOnStrategie": false
+          "Code": "BSV"
         },
         {
-          "PrixMoyen": "1616287.814048",
-          "ProfitAndLost": "14411.51",
-          "SpotQuantite": "0.017553",
+          "PrixMoyen": "1227040.206407",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "14239.61",
+          "SpotQuantite": "0.023255",
           "Transactions": [
             {
               "PrixShare": "13819.02",
@@ -9938,14 +10256,24 @@
               "Fees": "0.0",
               "Date": "10-04-2022 15:18:38",
               "Notes": "Convert 0.00490436 BTC to 56.72587027 KNC"
+            },
+            {
+              "PrixShare": "28783.892805",
+              "EurSubTotal": 164.12,
+              "Action": "buy",
+              "EurTotal": 164.12,
+              "NbreShare": "0.005701",
+              "Fees": "0.0",
+              "Date": "15-05-2022 16:02:02",
+              "Notes": "Convert 0.0057018 BTC to 144.98964068 MANA"
             }
           ],
-          "Code": "BTC",
-          "OpenOnStrategie": true
+          "Code": "BTC"
         },
         {
           "PrixMoyen": "19.294386",
-          "ProfitAndLost": "251.92",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "94.5",
           "SpotQuantite": "85.525395",
           "Transactions": [
             {
@@ -10269,12 +10597,12 @@
               "Notes": "Converted 15.85503964 CGLD to 54.67465365 LRC"
             }
           ],
-          "Code": "CGLD",
-          "OpenOnStrategie": true
+          "Code": "CGLD"
         },
         {
           "PrixMoyen": "0.932483",
-          "ProfitAndLost": "138.11",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "5.28",
           "SpotQuantite": "1258.606508",
           "Transactions": [
             {
@@ -10408,12 +10736,12 @@
               "Notes": "Convert 252.92316321 CHZ to 79.20289382 DAI"
             }
           ],
-          "Code": "CHZ",
-          "OpenOnStrategie": true
+          "Code": "CHZ"
         },
         {
           "PrixMoyen": "407.171967",
-          "ProfitAndLost": "-192.07",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-330.35",
           "SpotQuantite": "1.602517",
           "Transactions": [
             {
@@ -10537,13 +10865,13 @@
               "Notes": "Convert 0.24067953 COMP to 14.8072714 ENJ"
             }
           ],
-          "Code": "COMP",
-          "OpenOnStrategie": true
+          "Code": "COMP"
         },
         {
-          "PrixMoyen": "17.281854",
-          "ProfitAndLost": "217.42",
-          "SpotQuantite": "92.252252",
+          "PrixMoyen": "14.061035",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "125.88",
+          "SpotQuantite": "129.592876",
           "Transactions": [
             {
               "PrixShare": "2.814658",
@@ -10784,15 +11112,35 @@
               "Fees": "0.0",
               "Date": "23-01-2022 16:34:30",
               "Notes": "Convert 30.13307537 CRV to 2.822865 ATOM"
+            },
+            {
+              "PrixShare": "1.039404",
+              "EurSubTotal": 127.65,
+              "Action": "buy",
+              "EurTotal": 127.65,
+              "NbreShare": "122.810709",
+              "Fees": "0.0",
+              "Date": "20-05-2022 15:18:07",
+              "Notes": "Convert 122.81070976 CRV to 6.87310781 ETC"
+            },
+            {
+              "PrixShare": "1.148823",
+              "EurSubTotal": 98.19,
+              "Action": "sell",
+              "EurTotal": 100.27,
+              "NbreShare": "85.470085",
+              "Fees": "2.0799999999999983",
+              "Date": "28-05-2022 08:59:33",
+              "Notes": "Converted 85.47008547 CRV to 105.413106 USDC"
             }
           ],
-          "Code": "CRV",
-          "OpenOnStrategie": true
+          "Code": "CRV"
         },
         {
           "PrixMoyen": "2.078363",
-          "ProfitAndLost": "-40.12",
-          "SpotQuantite": "528.064574",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-88.39",
+          "SpotQuantite": "528.064575",
           "Transactions": [
             {
               "PrixShare": "0.997784",
@@ -10946,9 +11294,9 @@
             },
             {
               "PrixShare": "0.264718",
-              "EurSubTotal": 79.189743523362,
+              "EurSubTotal": 79.19,
               "Action": "buy",
-              "EurTotal": 79.189743523362,
+              "EurTotal": 79.19,
               "NbreShare": "299.147559",
               "Fees": "0.0",
               "Date": "10-03-2022 14:20:43",
@@ -10965,12 +11313,12 @@
               "Notes": "Converted 184.82353212 CTSI to 101.906111 BAT"
             }
           ],
-          "Code": "CTSI",
-          "OpenOnStrategie": true
+          "Code": "CTSI"
         },
         {
           "PrixMoyen": "1.673428",
-          "ProfitAndLost": "784.06",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "627.7",
           "SpotQuantite": "1416.009502",
           "Transactions": [
             {
@@ -11324,11 +11672,11 @@
               "Notes": "Converted 250.23267523 CVC to 981.69916778 ANKR"
             }
           ],
-          "Code": "CVC",
-          "OpenOnStrategie": true
+          "Code": "CVC"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "-86.2",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -18573,12 +18921,12 @@
               "Notes": "Ajustement 14\/03\/2022 10:33:22"
             }
           ],
-          "Code": "DAI",
-          "OpenOnStrategie": false
+          "Code": "DAI"
         },
         {
           "PrixMoyen": "861.357133",
-          "ProfitAndLost": "335.07",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "221.18",
           "SpotQuantite": "2.320141",
           "Transactions": [
             {
@@ -18872,12 +19220,12 @@
               "Notes": "Converted 0.63362355 DASH to 570.19664444 SKL"
             }
           ],
-          "Code": "DASH",
-          "OpenOnStrategie": true
+          "Code": "DASH"
         },
         {
           "PrixMoyen": "1.258039",
-          "ProfitAndLost": "662.73",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "533.06",
           "SpotQuantite": "2054.053661",
           "Transactions": [
             {
@@ -19251,12 +19599,12 @@
               "Notes": "Converted 474.52114723 DNT to 356.1751072 XLM"
             }
           ],
-          "Code": "DNT",
-          "OpenOnStrategie": true
+          "Code": "DNT"
         },
         {
           "PrixMoyen": "0.19905",
-          "ProfitAndLost": "-137.32",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-263.9",
           "SpotQuantite": "2083.642914",
           "Transactions": [
             {
@@ -19320,12 +19668,12 @@
               "Notes": "Convert 472.02144426 DOGE to 79.20301263 DAI"
             }
           ],
-          "Code": "DOGE",
-          "OpenOnStrategie": true
+          "Code": "DOGE"
         },
         {
           "PrixMoyen": "4.360307",
-          "ProfitAndLost": "-119.88",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-260.8",
           "SpotQuantite": "168.76333",
           "Transactions": [
             {
@@ -19429,12 +19777,12 @@
               "Notes": "Convert 31.91457088 ENJ to 3.80952381 LINK"
             }
           ],
-          "Code": "ENJ",
-          "OpenOnStrategie": true
+          "Code": "ENJ"
         },
         {
           "PrixMoyen": "22.144542",
-          "ProfitAndLost": "261.55",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "96.74",
           "SpotQuantite": "130.865198",
           "Transactions": [
             {
@@ -19838,13 +20186,13 @@
               "Notes": "Convert 29.7467 EOS to 395.94159861 SKL"
             }
           ],
-          "Code": "EOS",
-          "OpenOnStrategie": true
+          "Code": "EOS"
         },
         {
-          "PrixMoyen": "1038.285736",
-          "ProfitAndLost": "1533.17",
-          "SpotQuantite": "6.873108",
+          "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "1423.23",
+          "SpotQuantite": "0.0",
           "Transactions": [
             {
               "PrixShare": "11.56",
@@ -20718,20 +21066,30 @@
             },
             {
               "PrixShare": "34.599756",
-              "EurSubTotal": 78.57999024818399,
+              "EurSubTotal": 78.58,
               "Action": "sell",
-              "EurTotal": 79.95999024818398,
+              "EurTotal": 79.96,
               "NbreShare": "2.271114",
               "Fees": "1.3799999999999955",
               "Date": "20-03-2022 17:11:32",
               "Notes": "Converted 2.27111427 ETC to 347.36466546 OXT"
+            },
+            {
+              "PrixShare": "18.572384",
+              "EurSubTotal": 127.65,
+              "Action": "sell",
+              "EurTotal": 130.57,
+              "NbreShare": "6.873107",
+              "Fees": "2.9199999999999875",
+              "Date": "20-05-2022 15:18:07",
+              "Notes": "Converted 6.87310781 ETC to 122.81070976 CRV"
             }
           ],
-          "Code": "ETC",
-          "OpenOnStrategie": true
+          "Code": "ETC"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "459.22",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -20766,12 +21124,12 @@
               "Notes": "Ajustement 14\/03\/2022 10:34:28"
             }
           ],
-          "Code": "ETH",
-          "OpenOnStrategie": false
+          "Code": "ETH"
         },
         {
           "PrixMoyen": "3533.809439",
-          "ProfitAndLost": "-70.75",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-197.46",
           "SpotQuantite": "0.101658",
           "Transactions": [
             {
@@ -20785,12 +21143,12 @@
               "Notes": "Convert 0.10165879 ETH2 to 0.10165879 ETH"
             }
           ],
-          "Code": "ETH2",
-          "OpenOnStrategie": true
+          "Code": "ETH2"
         },
         {
           "PrixMoyen": "0.78191",
-          "ProfitAndLost": "-213.79",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-338.93",
           "SpotQuantite": "718.125668",
           "Transactions": [
             {
@@ -20904,13 +21262,13 @@
               "Notes": "Convert 163.56200492 FET to 88.16385571 DAI"
             }
           ],
-          "Code": "FET",
-          "OpenOnStrategie": true
+          "Code": "FET"
         },
         {
-          "PrixMoyen": "57.811361",
-          "ProfitAndLost": "-275.3",
-          "SpotQuantite": "11.372505",
+          "PrixMoyen": "57.811356",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-423.17",
+          "SpotQuantite": "11.372506",
           "Transactions": [
             {
               "PrixShare": "56.827898",
@@ -20984,9 +21342,9 @@
             },
             {
               "PrixShare": "15.469004",
-              "EurSubTotal": 78.549993535584,
+              "EurSubTotal": 78.55,
               "Action": "buy",
-              "EurTotal": 78.549993535584,
+              "EurTotal": 78.55,
               "NbreShare": "5.077896",
               "Fees": "0.0",
               "Date": "15-03-2022 17:39:14",
@@ -21003,12 +21361,12 @@
               "Notes": "Converted 3.94769307 FIL to 5.29693477 LINK"
             }
           ],
-          "Code": "FIL",
-          "OpenOnStrategie": true
+          "Code": "FIL"
         },
         {
           "PrixMoyen": "12.576795",
-          "ProfitAndLost": "0.18",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-52.16",
           "SpotQuantite": "22.992344",
           "Transactions": [
             {
@@ -21053,22 +21411,22 @@
             },
             {
               "PrixShare": "6.68562",
-              "EurSubTotal": 68.40998488734,
+              "EurSubTotal": 68.41,
               "Action": "buy",
-              "EurTotal": 68.40998488734,
+              "EurTotal": 68.41,
               "NbreShare": "10.232407",
               "Fees": "0.0",
               "Date": "01-03-2022 18:19:46",
               "Notes": "Convert 10.23240799 FORTH to 6.84261975 UMA"
             }
           ],
-          "Code": "FORTH",
-          "OpenOnStrategie": true
+          "Code": "FORTH"
         },
         {
           "PrixMoyen": "2.045497",
-          "ProfitAndLost": "-334.28",
-          "SpotQuantite": "587.030794",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-455.46",
+          "SpotQuantite": "587.030793",
           "Transactions": [
             {
               "PrixShare": "1.5",
@@ -21322,9 +21680,9 @@
             },
             {
               "PrixShare": "0.318454",
-              "EurSubTotal": 78.169798981528,
+              "EurSubTotal": 78.17,
               "Action": "buy",
-              "EurTotal": 78.169798981528,
+              "EurTotal": 78.17,
               "NbreShare": "245.466532",
               "Fees": "0.0",
               "Date": "04-03-2022 07:51:41",
@@ -21332,21 +21690,21 @@
             },
             {
               "PrixShare": "0.383618",
-              "EurSubTotal": 78.54988445833,
+              "EurSubTotal": 78.55,
               "Action": "sell",
-              "EurTotal": 80.22988445833,
+              "EurTotal": 80.23,
               "NbreShare": "204.760685",
               "Fees": "1.6800000000000068",
               "Date": "15-03-2022 17:39:14",
               "Notes": "Converted 204.76068595 GRT to 5.07789626 FIL"
             }
           ],
-          "Code": "GRT",
-          "OpenOnStrategie": true
+          "Code": "GRT"
         },
         {
           "PrixMoyen": "84.825494",
-          "ProfitAndLost": "-637.52",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-769.23",
           "SpotQuantite": "12.798275",
           "Transactions": [
             {
@@ -21540,12 +21898,12 @@
               "Notes": "Convert 2.52617458 ICP to 14.56346 XTZ"
             }
           ],
-          "Code": "ICP",
-          "OpenOnStrategie": false
+          "Code": "ICP"
         },
         {
           "PrixMoyen": "0.514825",
-          "ProfitAndLost": "286.4",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "175.45",
           "SpotQuantite": "2939.809239",
           "Transactions": [
             {
@@ -21729,11 +22087,11 @@
               "Notes": "Convert 682.43482742 IOTX to 1082.76319299 ACH"
             }
           ],
-          "Code": "IOTX",
-          "OpenOnStrategie": true
+          "Code": "IOTX"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "1.81",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -21758,13 +22116,13 @@
               "Notes": "Converted 87.8557064 KEEP to 19.13185619 ENJ"
             }
           ],
-          "Code": "KEEP",
-          "OpenOnStrategie": false
+          "Code": "KEEP"
         },
         {
-          "PrixMoyen": "Infinity",
-          "ProfitAndLost": "946.4",
-          "SpotQuantite": "0.0",
+          "PrixMoyen": "3.53744E9",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "946.39",
+          "SpotQuantite": "-1.0E-6",
           "Transactions": [
             {
               "PrixShare": "0.701247",
@@ -22188,9 +22546,9 @@
             },
             {
               "PrixShare": "2.525807",
-              "EurSubTotal": 78.479973171329,
+              "EurSubTotal": 78.48,
               "Action": "sell",
-              "EurTotal": 79.99997317132899,
+              "EurTotal": 80.0,
               "NbreShare": "31.071247",
               "Fees": "1.519999999999996",
               "Date": "03-03-2022 09:39:22",
@@ -22198,9 +22556,9 @@
             },
             {
               "PrixShare": "2.718278",
-              "EurSubTotal": 77.939983615124,
+              "EurSubTotal": 77.94,
               "Action": "sell",
-              "EurTotal": 79.99998361512401,
+              "EurTotal": 80.0,
               "NbreShare": "28.672558",
               "Fees": "2.0600000000000023",
               "Date": "08-03-2022 09:30:35",
@@ -22208,9 +22566,9 @@
             },
             {
               "PrixShare": "2.839644",
-              "EurSubTotal": 78.279994767096,
+              "EurSubTotal": 78.28,
               "Action": "sell",
-              "EurTotal": 80.029994767096,
+              "EurTotal": 80.03,
               "NbreShare": "27.566834",
               "Fees": "1.75",
               "Date": "18-03-2022 17:53:19",
@@ -22257,13 +22615,13 @@
               "Notes": "Converted 56.72587027 KNC to 0.00490436 BTC"
             }
           ],
-          "Code": "KNC",
-          "OpenOnStrategie": false
+          "Code": "KNC"
         },
         {
-          "PrixMoyen": "398.121922",
-          "ProfitAndLost": "1222.3",
-          "SpotQuantite": "15.748869",
+          "PrixMoyen": "2.12464E9",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "1115.2",
+          "SpotQuantite": "3.0E-6",
           "Transactions": [
             {
               "PrixShare": "2.76",
@@ -22834,14 +23192,24 @@
               "Fees": "0.0",
               "Date": "27-03-2022 19:15:50",
               "Notes": "Convert 5.29693477 LINK to 3.94769307 FIL"
+            },
+            {
+              "PrixShare": "6.472211",
+              "EurSubTotal": 101.93,
+              "Action": "sell",
+              "EurTotal": 103.95,
+              "NbreShare": "15.748866",
+              "Fees": "2.019999999999996",
+              "Date": "19-05-2022 14:49:55",
+              "Notes": "Converted 15.74886608 LINK to 206.005459 ADA"
             }
           ],
-          "Code": "LINK",
-          "OpenOnStrategie": true
+          "Code": "LINK"
         },
         {
           "PrixMoyen": "12.128418",
-          "ProfitAndLost": "1019.04",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "900.88",
           "SpotQuantite": "323.805624",
           "Transactions": [
             {
@@ -23345,13 +23713,13 @@
               "Notes": "Converted 66.78844735 LRC to 91.858395 ALGO"
             }
           ],
-          "Code": "LRC",
-          "OpenOnStrategie": true
+          "Code": "LRC"
         },
         {
-          "PrixMoyen": "2789.26767",
-          "ProfitAndLost": "-791.58",
-          "SpotQuantite": "2.852652",
+          "PrixMoyen": "1824.370031",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-946.41",
+          "SpotQuantite": "4.41411",
           "Transactions": [
             {
               "PrixShare": "241.61",
@@ -23772,15 +24140,25 @@
               "Fees": "0.0",
               "Date": "03-01-2022 22:38:46",
               "Notes": "Convert 0.59706926 LTC to 2.292392 ATOM"
+            },
+            {
+              "PrixShare": "61.583447",
+              "EurSubTotal": 96.16,
+              "Action": "buy",
+              "EurTotal": 96.16,
+              "NbreShare": "1.561458",
+              "Fees": "0.0",
+              "Date": "06-06-2022 10:24:53",
+              "Notes": "Convert 1.56145855 LTC to 105.42 USDC"
             }
           ],
-          "Code": "LTC",
-          "OpenOnStrategie": true
+          "Code": "LTC"
         },
         {
-          "PrixMoyen": "20.309106",
-          "ProfitAndLost": "1613.81",
-          "SpotQuantite": "144.98964",
+          "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "1495.03",
+          "SpotQuantite": "0.0",
           "Transactions": [
             {
               "PrixShare": "0.071878",
@@ -24211,15 +24589,35 @@
               "Fees": "0.0",
               "Date": "01-01-2022 17:11:46",
               "Notes": "Ajustement 01\/01\/2022 05:11:46"
+            },
+            {
+              "PrixShare": "1.131942",
+              "EurSubTotal": 164.12,
+              "Action": "sell",
+              "EurTotal": 167.65,
+              "NbreShare": "144.98964",
+              "Fees": "3.530000000000001",
+              "Date": "15-05-2022 16:02:02",
+              "Notes": "Converted 144.98964068 MANA to 0.0057018 BTC"
+            },
+            {
+              "PrixShare": "0.0",
+              "EurSubTotal": 0.0,
+              "Action": "arbitrate",
+              "EurTotal": 0.0,
+              "NbreShare": "1.0E-6",
+              "Fees": "0.0",
+              "Date": "15-05-2022 18:22:56",
+              "Notes": "Ajustement 15\/05\/2022 06:22:56"
             }
           ],
-          "Code": "MANA",
-          "OpenOnStrategie": true
+          "Code": "MANA"
         },
         {
-          "PrixMoyen": "3.629587",
-          "ProfitAndLost": "-152.11",
-          "SpotQuantite": "216.377204",
+          "PrixMoyen": "3.659958",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-413.07",
+          "SpotQuantite": "247.699498",
           "Transactions": [
             {
               "PrixShare": "2.600152",
@@ -24303,9 +24701,9 @@
             },
             {
               "PrixShare": "1.353133",
-              "EurSubTotal": 77.939957434524,
+              "EurSubTotal": 77.94,
               "Action": "buy",
-              "EurTotal": 77.939957434524,
+              "EurTotal": 77.94,
               "NbreShare": "57.599628",
               "Fees": "0.0",
               "Date": "08-03-2022 09:30:35",
@@ -24313,22 +24711,42 @@
             },
             {
               "PrixShare": "1.907984",
-              "EurSubTotal": 79.189996339376,
+              "EurSubTotal": 79.19,
               "Action": "sell",
-              "EurTotal": 80.199996339376,
+              "EurTotal": 80.2,
               "NbreShare": "41.504539",
               "Fees": "1.0100000000000051",
               "Date": "10-03-2022 14:20:43",
               "Notes": "Converted 41.50453956 MIR to 299.14755948 CTSI"
+            },
+            {
+              "PrixShare": "0.315018",
+              "EurSubTotal": 60.27,
+              "Action": "buy",
+              "EurTotal": 60.27,
+              "NbreShare": "191.322294",
+              "Fees": "0.0",
+              "Date": "15-05-2022 15:44:05",
+              "Notes": "Convert 191.32229408 MIR to 0.04218947 MKR"
+            },
+            {
+              "PrixShare": "0.370812",
+              "EurSubTotal": 59.33,
+              "Action": "sell",
+              "EurTotal": 60.94,
+              "NbreShare": "160.0",
+              "Fees": "1.6099999999999994",
+              "Date": "23-05-2022 17:20:21",
+              "Notes": "Converted 160.0000 MIR to 104.66088075 STORJ"
             }
           ],
-          "Code": "MIR",
-          "OpenOnStrategie": true
+          "Code": "MIR"
         },
         {
-          "PrixMoyen": "15196.975443",
-          "ProfitAndLost": "46.05",
-          "SpotQuantite": "0.042188",
+          "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "36.18",
+          "SpotQuantite": "0.0",
           "Transactions": [
             {
               "PrixShare": "470.579943",
@@ -24382,21 +24800,41 @@
             },
             {
               "PrixShare": "1854.491179",
-              "EurSubTotal": 78.239128350831,
+              "EurSubTotal": 78.24,
               "Action": "buy",
-              "EurTotal": 78.239128350831,
+              "EurTotal": 78.24,
               "NbreShare": "0.042189",
               "Fees": "0.0",
               "Date": "24-03-2022 19:41:16",
               "Notes": "Convert 0.04218947 MKR to 74.752383 ADA"
+            },
+            {
+              "PrixShare": "1428.555513",
+              "EurSubTotal": 60.27,
+              "Action": "sell",
+              "EurTotal": 61.64,
+              "NbreShare": "0.042189",
+              "Fees": "1.3699999999999974",
+              "Date": "15-05-2022 15:44:05",
+              "Notes": "Converted 0.04218947 MKR to 191.32229408 MIR"
+            },
+            {
+              "PrixShare": "0.0",
+              "EurSubTotal": 0.0,
+              "Action": "arbitrate",
+              "EurTotal": 0.0,
+              "NbreShare": "1.0E-6",
+              "Fees": "0.0",
+              "Date": "15-05-2022 18:23:03",
+              "Notes": "Ajustement 15\/05\/2022 06:23:03"
             }
           ],
-          "Code": "MKR",
-          "OpenOnStrategie": true
+          "Code": "MKR"
         },
         {
           "PrixMoyen": "1.172357",
-          "ProfitAndLost": "-209.73",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-346.46",
           "SpotQuantite": "1281.810417",
           "Transactions": [
             {
@@ -24620,13 +25058,13 @@
               "Notes": "Convert 295.76076178 NKN to 3.52500551 LINK"
             }
           ],
-          "Code": "NKN",
-          "OpenOnStrategie": true
+          "Code": "NKN"
         },
         {
           "PrixMoyen": "3.7967",
-          "ProfitAndLost": "1096.07",
-          "SpotQuantite": "678.984368",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "995.32",
+          "SpotQuantite": "678.984369",
           "Transactions": [
             {
               "PrixShare": "0.5",
@@ -24900,22 +25338,22 @@
             },
             {
               "PrixShare": "0.387187",
-              "EurSubTotal": 81.539998992357,
+              "EurSubTotal": 81.54,
               "Action": "buy",
-              "EurTotal": 81.539998992357,
+              "EurTotal": 81.54,
               "NbreShare": "210.595911",
               "Fees": "0.0",
               "Date": "13-03-2022 15:37:52",
               "Notes": "Convert 210.59591155 NU to 254.82105298 OGN"
             }
           ],
-          "Code": "NU",
-          "OpenOnStrategie": true
+          "Code": "NU"
         },
         {
-          "PrixMoyen": "Infinity",
-          "ProfitAndLost": "13.72",
-          "SpotQuantite": "0.0",
+          "PrixMoyen": "3.1137E8",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "13.71",
+          "SpotQuantite": "-1.0E-6",
           "Transactions": [
             {
               "PrixShare": "1.278784",
@@ -24969,9 +25407,9 @@
             },
             {
               "PrixShare": "0.319989",
-              "EurSubTotal": 81.53993360842802,
+              "EurSubTotal": 81.54,
               "Action": "sell",
-              "EurTotal": 83.46993360842801,
+              "EurTotal": 83.47,
               "NbreShare": "254.821052",
               "Fees": "1.9299999999999926",
               "Date": "13-03-2022 15:37:52",
@@ -24988,12 +25426,12 @@
               "Notes": "Ajustement 13\/03\/2022 04:42:39"
             }
           ],
-          "Code": "OGN",
-          "OpenOnStrategie": false
+          "Code": "OGN"
         },
         {
           "PrixMoyen": "46.701466",
-          "ProfitAndLost": "712.3",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "600.26",
           "SpotQuantite": "56.775733",
           "Transactions": [
             {
@@ -25377,13 +25815,13 @@
               "Notes": "Convert 9.05305334 OMG to 79.27113138 DAI"
             }
           ],
-          "Code": "OMG",
-          "OpenOnStrategie": true
+          "Code": "OMG"
         },
         {
           "PrixMoyen": "3.573794",
-          "ProfitAndLost": "290.77",
-          "SpotQuantite": "347.364664",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "251.2",
+          "SpotQuantite": "347.364665",
           "Transactions": [
             {
               "PrixShare": "0.225089",
@@ -25507,20 +25945,20 @@
             },
             {
               "PrixShare": "0.226217",
-              "EurSubTotal": 78.579792422305,
+              "EurSubTotal": 78.58,
               "Action": "buy",
-              "EurTotal": 78.579792422305,
+              "EurTotal": 78.58,
               "NbreShare": "347.364665",
               "Fees": "0.0",
               "Date": "20-03-2022 17:11:32",
               "Notes": "Convert 347.36466546 OXT to 2.27111427 ETC"
             }
           ],
-          "Code": "OXT",
-          "OpenOnStrategie": true
+          "Code": "OXT"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "-7.72",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -25545,12 +25983,12 @@
               "Notes": "Converted 80.59994284 REN to 358.7160405 ACH"
             }
           ],
-          "Code": "REN",
-          "OpenOnStrategie": false
+          "Code": "REN"
         },
         {
           "PrixMoyen": "137.742852",
-          "ProfitAndLost": "163.0",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "94.57",
           "SpotQuantite": "16.815682",
           "Transactions": [
             {
@@ -25924,12 +26362,12 @@
               "Notes": "Converted 5.70916995 REP to 254.82105298 OGN"
             }
           ],
-          "Code": "REP",
-          "OpenOnStrategie": true
+          "Code": "REP"
         },
         {
           "PrixMoyen": "1.42E-4",
-          "ProfitAndLost": "823.41",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "632.4",
           "SpotQuantite": "1.3466651280456E7",
           "Transactions": [
             {
@@ -26133,12 +26571,12 @@
               "Notes": "Converted 1 684 717.20818291 SHIB to 77.96741565 DAI"
             }
           ],
-          "Code": "SHIB",
-          "OpenOnStrategie": true
+          "Code": "SHIB"
         },
         {
           "PrixMoyen": "0.403221",
-          "ProfitAndLost": "-106.93",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-320.64",
           "SpotQuantite": "1878.446831",
           "Transactions": [
             {
@@ -26242,13 +26680,13 @@
               "Notes": "Convert 431.60214965 SKL to 23.24753576 KNC"
             }
           ],
-          "Code": "SKL",
-          "OpenOnStrategie": true
+          "Code": "SKL"
         },
         {
-          "PrixMoyen": "5.691143",
-          "ProfitAndLost": "95.91",
-          "SpotQuantite": "339.281528",
+          "PrixMoyen": "4.483081",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-85.25",
+          "SpotQuantite": "443.942409",
           "Transactions": [
             {
               "PrixShare": "1.16",
@@ -26549,14 +26987,24 @@
               "Fees": "0.0",
               "Date": "10-04-2022 15:18:08",
               "Notes": "Convert 76.73342882 STORJ to 23.31762225 KNC"
+            },
+            {
+              "PrixShare": "0.566878",
+              "EurSubTotal": 59.33,
+              "Action": "buy",
+              "EurTotal": 59.33,
+              "NbreShare": "104.66088",
+              "Fees": "0.0",
+              "Date": "23-05-2022 17:20:21",
+              "Notes": "Convert 104.66088075 STORJ to 160.0 MIR"
             }
           ],
-          "Code": "STORJ",
-          "OpenOnStrategie": true
+          "Code": "STORJ"
         },
         {
           "PrixMoyen": "31.897383",
-          "ProfitAndLost": "-140.26",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-260.25",
           "SpotQuantite": "36.99896",
           "Transactions": [
             {
@@ -26721,21 +27169,21 @@
             },
             {
               "PrixShare": "9.997632",
-              "EurSubTotal": 68.409986678208,
+              "EurSubTotal": 68.41,
               "Action": "sell",
-              "EurTotal": 70.269986678208,
+              "EurTotal": 70.27,
               "NbreShare": "6.842619",
               "Fees": "1.8599999999999994",
               "Date": "01-03-2022 18:19:46",
               "Notes": "Converted 6.84261975 UMA to 10.23240799 FORTH"
             }
           ],
-          "Code": "UMA",
-          "OpenOnStrategie": true
+          "Code": "UMA"
         },
         {
           "PrixMoyen": "123.845706",
-          "ProfitAndLost": "55.57",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "24.15",
           "SpotQuantite": "7.447412",
           "Transactions": [
             {
@@ -26849,13 +27297,13 @@
               "Notes": "Convert 7.44741385 UNI to 697.52759141 DNT"
             }
           ],
-          "Code": "UNI",
-          "OpenOnStrategie": true
+          "Code": "UNI"
         },
         {
-          "PrixMoyen": "59887.535145",
-          "ProfitAndLost": "-11.27",
-          "SpotQuantite": "0.007469",
+          "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
+          "ProfitAndLost": "-11.37",
+          "SpotQuantite": "0.0",
           "Transactions": [
             {
               "PrixShare": "0.913526",
@@ -26896,14 +27344,44 @@
               "Fees": "0.5900000000000034",
               "Date": "12-08-2021 23:26:30",
               "Notes": "Converted 69.4500 USDC to 68.70746741 DAI"
+            },
+            {
+              "PrixShare": "0.931478",
+              "EurSubTotal": 98.19,
+              "Action": "buy",
+              "EurTotal": 98.19,
+              "NbreShare": "105.413106",
+              "Fees": "0.0",
+              "Date": "28-05-2022 08:59:33",
+              "Notes": "Convert 105.413106 USDC to 85.47008547 CRV"
+            },
+            {
+              "PrixShare": "0.91216",
+              "EurSubTotal": 96.16,
+              "Action": "sell",
+              "EurTotal": 98.1,
+              "NbreShare": "105.42",
+              "Fees": "1.9399999999999977",
+              "Date": "06-06-2022 10:24:53",
+              "Notes": "Converted 105.4200 USDC to 1.56145855 LTC"
+            },
+            {
+              "PrixShare": "0.0",
+              "EurSubTotal": -0.0,
+              "Action": "arbitrate",
+              "EurTotal": 0.0,
+              "NbreShare": "-5.74E-4",
+              "Fees": "0.0",
+              "Date": "06-06-2022 12:28:05",
+              "Notes": "Ajustement 06\/06\/2022 12:28:05"
             }
           ],
-          "Code": "USDC",
-          "OpenOnStrategie": false
+          "Code": "USDC"
         },
         {
           "PrixMoyen": "4.809104",
-          "ProfitAndLost": "-239.54",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "-330.92",
           "SpotQuantite": "144.715078",
           "Transactions": [
             {
@@ -26997,12 +27475,12 @@
               "Notes": "Convert 36.44800376 VGX to 125.66472591 CTSI"
             }
           ],
-          "Code": "VGX",
-          "OpenOnStrategie": true
+          "Code": "VGX"
         },
         {
           "PrixMoyen": "1.150156",
-          "ProfitAndLost": "494.91",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "384.05",
           "SpotQuantite": "1812.335245",
           "Transactions": [
             {
@@ -27316,11 +27794,11 @@
               "Notes": "Convert 356.1751072 XLM to 474.52114723 DNT"
             }
           ],
-          "Code": "XLM",
-          "OpenOnStrategie": true
+          "Code": "XLM"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "-560.17",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -27475,13 +27953,13 @@
               "Notes": "Ajustement 19\/01\/2022 03:57:49"
             }
           ],
-          "Code": "XRP",
-          "OpenOnStrategie": false
+          "Code": "XRP"
         },
         {
-          "PrixMoyen": "19.75554",
-          "ProfitAndLost": "260.45",
-          "SpotQuantite": "160.206197",
+          "PrixMoyen": "19.70358",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "95.02",
+          "SpotQuantite": "160.673335",
           "Transactions": [
             {
               "PrixShare": "2.073662",
@@ -30015,9 +30493,9 @@
             },
             {
               "PrixShare": "2.8",
-              "EurSubTotal": 0.1226456,
+              "EurSubTotal": 0.12,
               "Action": "received",
-              "EurTotal": 0.1226456,
+              "EurTotal": 0.12,
               "NbreShare": "0.043802",
               "Fees": "0.0",
               "Date": "28-02-2022 13:41:59",
@@ -30025,9 +30503,9 @@
             },
             {
               "PrixShare": "3.14",
-              "EurSubTotal": 0.14222316000000002,
+              "EurSubTotal": 0.14,
               "Action": "received",
-              "EurTotal": 0.14222316000000002,
+              "EurTotal": 0.14,
               "NbreShare": "0.045294",
               "Fees": "0.0",
               "Date": "03-03-2022 14:19:57",
@@ -30035,9 +30513,9 @@
             },
             {
               "PrixShare": "2.78",
-              "EurSubTotal": 0.11240373999999999,
+              "EurSubTotal": 0.11,
               "Action": "received",
-              "EurTotal": 0.11240373999999999,
+              "EurTotal": 0.11,
               "NbreShare": "0.040433",
               "Fees": "0.0",
               "Date": "06-03-2022 17:49:26",
@@ -30045,9 +30523,9 @@
             },
             {
               "PrixShare": "2.84",
-              "EurSubTotal": 0.11778047999999999,
+              "EurSubTotal": 0.12,
               "Action": "received",
-              "EurTotal": 0.11778047999999999,
+              "EurTotal": 0.12,
               "NbreShare": "0.041472",
               "Fees": "0.0",
               "Date": "09-03-2022 17:25:48",
@@ -30055,9 +30533,9 @@
             },
             {
               "PrixShare": "2.79",
-              "EurSubTotal": 0.11365623000000001,
+              "EurSubTotal": 0.11,
               "Action": "received",
-              "EurTotal": 0.11365623000000001,
+              "EurTotal": 0.11,
               "NbreShare": "0.040737",
               "Fees": "0.0",
               "Date": "12-03-2022 19:19:43",
@@ -30065,9 +30543,9 @@
             },
             {
               "PrixShare": "2.69",
-              "EurSubTotal": 0.10893692999999999,
+              "EurSubTotal": 0.11,
               "Action": "received",
-              "EurTotal": 0.10893692999999999,
+              "EurTotal": 0.11,
               "NbreShare": "0.040497",
               "Fees": "0.0",
               "Date": "15-03-2022 15:54:44",
@@ -30075,9 +30553,9 @@
             },
             {
               "PrixShare": "2.89",
-              "EurSubTotal": 0.12043208000000001,
+              "EurSubTotal": 0.12,
               "Action": "received",
-              "EurTotal": 0.12043208000000001,
+              "EurTotal": 0.12,
               "NbreShare": "0.041672",
               "Fees": "0.0",
               "Date": "19-03-2022 09:41:52",
@@ -30085,9 +30563,9 @@
             },
             {
               "PrixShare": "2.98",
-              "EurSubTotal": 0.12817576,
+              "EurSubTotal": 0.13,
               "Action": "received",
-              "EurTotal": 0.12817576,
+              "EurTotal": 0.13,
               "NbreShare": "0.043012",
               "Fees": "0.0",
               "Date": "21-03-2022 18:05:02",
@@ -30095,9 +30573,9 @@
             },
             {
               "PrixShare": "3.2",
-              "EurSubTotal": 0.133008,
+              "EurSubTotal": 0.13,
               "Action": "received",
-              "EurTotal": 0.133008,
+              "EurTotal": 0.13,
               "NbreShare": "0.041565",
               "Fees": "0.0",
               "Date": "24-03-2022 16:09:51",
@@ -30122,13 +30600,123 @@
               "Fees": "0.0",
               "Date": "30-03-2022 17:32:04",
               "Notes": "Received 0.044431 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.8",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.045416",
+              "Fees": "0.0",
+              "Date": "26-05-2022 15:56:02",
+              "Notes": "Received 0.045416 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.8",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.04517",
+              "Fees": "0.0",
+              "Date": "28-05-2022 12:27:48",
+              "Notes": "Received 0.04517 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.87",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.040628",
+              "Fees": "0.0",
+              "Date": "01-06-2022 16:52:18",
+              "Notes": "Received 0.040628 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.76",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.043975",
+              "Fees": "0.0",
+              "Date": "02-06-2022 03:40:35",
+              "Notes": "Received 0.043975 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.78",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.043182",
+              "Fees": "0.0",
+              "Date": "02-06-2022 06:04:28",
+              "Notes": "Received 0.043182 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.84",
+              "EurSubTotal": 0.08,
+              "Action": "received",
+              "EurTotal": 0.08,
+              "NbreShare": "0.045679",
+              "Fees": "0.0",
+              "Date": "07-06-2022 01:48:41",
+              "Notes": "Received 0.045679 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "2.02",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.04548",
+              "Fees": "0.0",
+              "Date": "07-06-2022 12:57:21",
+              "Notes": "Received 0.04548 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.97",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.045158",
+              "Fees": "0.0",
+              "Date": "09-06-2022 01:24:02",
+              "Notes": "Received 0.045158 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "2.08",
+              "EurSubTotal": 0.05,
+              "Action": "received",
+              "EurTotal": 0.05,
+              "NbreShare": "0.023469",
+              "Fees": "0.0",
+              "Date": "09-06-2022 21:46:59",
+              "Notes": "Received 0.023469 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.97",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.044965",
+              "Fees": "0.0",
+              "Date": "10-06-2022 15:07:14",
+              "Notes": "Received 0.044965 XTZ from Coinbase Rewards"
+            },
+            {
+              "PrixShare": "1.94",
+              "EurSubTotal": 0.09,
+              "Action": "received",
+              "EurTotal": 0.09,
+              "NbreShare": "0.044016",
+              "Fees": "0.0",
+              "Date": "10-06-2022 21:19:32",
+              "Notes": "Received 0.044016 XTZ from Coinbase Rewards"
             }
           ],
-          "Code": "XTZ",
-          "OpenOnStrategie": true
+          "Code": "XTZ"
         },
         {
           "PrixMoyen": "Infinity",
+          "OpenOnStrategie": false,
           "ProfitAndLost": "57.26",
           "SpotQuantite": "0.0",
           "Transactions": [
@@ -30213,12 +30801,12 @@
               "Notes": "Ajustement 14\/03\/2022 10:32:05"
             }
           ],
-          "Code": "XYO",
-          "OpenOnStrategie": false
+          "Code": "XYO"
         },
         {
           "PrixMoyen": "1486.244199",
-          "ProfitAndLost": "637.64",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "531.22",
           "SpotQuantite": "2.12056",
           "Transactions": [
             {
@@ -30653,21 +31241,21 @@
             },
             {
               "PrixShare": "133.805441",
-              "EurSubTotal": 78.28996494542301,
+              "EurSubTotal": 78.29,
               "Action": "sell",
-              "EurTotal": 79.999964945423,
+              "EurTotal": 80.0,
               "NbreShare": "0.585103",
               "Fees": "1.7099999999999937",
               "Date": "13-03-2022 15:55:59",
               "Notes": "Converted 0.58510326 ZEC to 3 454.24909561 AMP"
             }
           ],
-          "Code": "ZEC",
-          "OpenOnStrategie": true
+          "Code": "ZEC"
         },
         {
           "PrixMoyen": "5.770101",
-          "ProfitAndLost": "331.49",
+          "OpenOnStrategie": true,
+          "ProfitAndLost": "200.37",
           "SpotQuantite": "415.70154",
           "Transactions": [
             {
@@ -31031,17 +31619,9 @@
               "Notes": "Convert 71.7040864 ZRX to 291.53456507 IOTX"
             }
           ],
-          "Code": "ZRX",
-          "OpenOnStrategie": true
+          "Code": "ZRX"
         }
-      ],
-      "MontantInitial": "7669.58",
-      "LiquiditeEuro": {
-        "Total": "0.0",
-        "Mouvements": []
-      },
-      "Nom": "COINBASE",
-      "MontantFeesEuro": "1556.5"
+      ]
     }
   ]
 }

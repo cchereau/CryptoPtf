@@ -31,7 +31,6 @@ public class JPanelPortfolioPositionsTable extends JPanel implements ListnerChan
     public JPanelPortfolioPositionsTable() {
         super(new GridBagLayout());
 
-        //JPanel panelPortfolioPosition = new JPanel();
         JTable tableauPosition = new JTable();
         JScrollPane scrollTablePosition = new JScrollPane(tableauPosition);
 
@@ -160,8 +159,6 @@ public class JPanelPortfolioPositionsTable extends JPanel implements ListnerChan
         this.ptf = ptf;
         // chatrgement des données
         tableModelePositions.addAll(this.ptf.getPositions());
-        tableModelePositions.fireTableDataChanged();
-
     }
 
 

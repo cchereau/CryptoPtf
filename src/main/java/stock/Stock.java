@@ -7,7 +7,6 @@ import global.EnumCrypto.enTypeQuotation;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.Month;
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -67,15 +66,9 @@ public class Stock {
             values.put(entry.getKey(), entry.getValue().getValue(typeQuotation));
         return values;
     }
-
     public TreeMap<LocalDate, StockPrice> getQuotations() {
         return this.quotations;
     }
-
-    public ArrayList<LocalDate> getDateQuotation() {
-        return new ArrayList<LocalDate>(this.quotations.keySet());
-    }
-
 
     public void addQuotation(StockPrice stockPrice, Boolean saveFile) {
 

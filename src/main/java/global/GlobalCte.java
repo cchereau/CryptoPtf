@@ -50,6 +50,17 @@ public final class GlobalCte {
     public static final int COL_QUOTATION_HISTORY_HIGH = 4;
     public static final int COL_QUOTATION_HISTORY_VOLUME = 5;
 
+    public static final String[] entetesComposition = {"Code", "Position", "Quantite", "Prix Avg", "Prix Marche", "Action", "Quantité", "P&L"};
+    public static final int COL_COMPOSITION_CODE = 0;
+    public static final int COL_COMPOSITION_SHORT_LONG = 1;
+    public static final int COL_COMPOSITION_QUANTITE = 2;
+    public static final int COL_COMPOSITION_PRIX_MOYEN = 3;
+    public static final int COL_COMPOSITION_PRIX_MARCHE = 4;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_BUY_SELL = 5;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_QUANTITE = 6;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_PL = 7;
+
+
     public static final String[] entetesPortfeuilleDetail = {"Nom", "Liquidite", "Montant Initial", "P&L", "Fees"};
     public static final int COL_PTF_DETAIL_NAME = 0;
     public static final int COL_PTF_DETAIL_LIQUIDITE = 1;
@@ -66,7 +77,7 @@ public final class GlobalCte {
     public static final int COL_PTF_SYNTHESE_PL = 5;
     public static final int COL_PTF_SYNTHESE_FEES = 6;
 
-    public static final String[] entetesTransactions = {"Nom", "Date", "Action", "Quantité", "Court", "Sous Total", "fees", "Total", "Balance Position", "Balance Share", "Balance Price", "Note"};
+    public static final String[] entetesTransactions = {"Nom", "Date", "Actions", "Quantité", "Court", "Sous Total", "fees", "Total", "Balance Position", "Balance Share", "Balance Price", "Note"};
     public static final int COL_TRADE_INSTNAME = 0;
     public static final int COL_TRAFDE_DATE = 1;
     public static final int COL_TRADE_ACTION = 2;

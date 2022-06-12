@@ -8,6 +8,7 @@ public final class EnumCrypto {
 
     public enum enActionOnPosition {
         Acheter(1), Vendre(-1), Alleger(-1), StandBy(0), Undefined(0), Renforcer(1);
+
         private final int poids;
 
         enActionOnPosition(int ponderation) {
@@ -19,6 +20,16 @@ public final class EnumCrypto {
         }
     }
 
+    public enum enPositionShortLong {posShort, posLong, posNull}
+
+    public enum enOperateur {Egale, Inferieur, Superieur, InferieurAndEgal, SuperieureAndEgal}
+
+    public enum enSimulationExecute {Evaluate, Action}
+
+    public enum enSimulationResultat {Sell, buy, StandBy}
+
+    public enum enStrategieAction {Evaluate, StandBy, Buy, Sell}
+
     public enum enTypeTransaction {buy, sell, arbitrate, received, send, all, other}
 
     public enum enTypeDate {lastDate, firstDate}
@@ -29,7 +40,6 @@ public final class EnumCrypto {
 
     public enum enTypeMouvement {Retrait, Depot}
 
-    public enum enStrategieAction {Evaluate, StandBy, Buy, Sell}
 
     public enum enJSONPosition {PrixMoyen, SpotQuantite, ProfitAndLost, Transactions, Code, OpenOnStrategie}
 
@@ -41,11 +51,6 @@ public final class EnumCrypto {
 
     public enum enJSONStock {Name, Ticker, Devise, Refresh, Stock}
 
-    public enum enOperateur {Egale, Inferieur, Superieur, InferieurAndEgal, SuperieureAndEgal}
-
-    public enum enSimulationExecute {Evaluate, Action}
-
-    public enum enSimulationResultat {Sell, buy, StandBy}
 
 }
 
