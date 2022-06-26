@@ -26,7 +26,7 @@ public final class EnumCrypto {
 
     public enum enSimulationExecute {Evaluate, Action}
 
-    public enum enSimulationResultat {Sell, buy, StandBy}
+    public enum enSimulationResultat {Sell, Buy, StandBy}
 
     public enum enStrategieAction {Evaluate, StandBy, Buy, Sell}
 

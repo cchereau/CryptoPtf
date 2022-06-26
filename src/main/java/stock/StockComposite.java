@@ -19,6 +19,15 @@ public class StockComposite extends Stock {
         this.stock2 = stock2;
     }
 
+    public Stock getStockFrom() {
+        return this.stock1;
+    }
+
+    public Stock getStockTo() {
+        return this.stock2;
+    }
+
+
     @Override
     public LocalDate getPriceTypeDate(enTypeDate typeDate) {
         if (stock1.getPriceTypeDate(typeDate).compareTo(stock2.getPriceTypeDate(typeDate)) >= 0)

@@ -58,8 +58,6 @@ public class JPanelPriceEvolutionTable extends JPanel {
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
         // Sélection par default de la cell
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
     }
 
     public void setListenerLineSelected(ListnerPriceEvolution listener) {
@@ -80,7 +78,6 @@ public class JPanelPriceEvolutionTable extends JPanel {
             public int getSize() {
                 return stockPricesFrom.size();
             }
-
             public Object getElementAt(int index) {
                 return stockPricesFrom.get(index).getNom();
             }

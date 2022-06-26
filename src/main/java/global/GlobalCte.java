@@ -50,15 +50,16 @@ public final class GlobalCte {
     public static final int COL_QUOTATION_HISTORY_HIGH = 4;
     public static final int COL_QUOTATION_HISTORY_VOLUME = 5;
 
-    public static final String[] entetesComposition = {"Code", "Position", "Quantite", "Prix Avg", "Prix Marche", "Action", "Quantité", "P&L"};
-    public static final int COL_COMPOSITION_CODE = 0;
-    public static final int COL_COMPOSITION_SHORT_LONG = 1;
-    public static final int COL_COMPOSITION_QUANTITE = 2;
-    public static final int COL_COMPOSITION_PRIX_MOYEN = 3;
-    public static final int COL_COMPOSITION_PRIX_MARCHE = 4;
-    public static final int COL_COMPOSITION_PRIX_PROPAL_BUY_SELL = 5;
-    public static final int COL_COMPOSITION_PRIX_PROPAL_QUANTITE = 6;
-    public static final int COL_COMPOSITION_PRIX_PROPAL_PL = 7;
+    public static final String[] entetesComposition = {"Short/Long", "Action", "Code", "Quantite", "Prix Avg", "Prix Marche", "Performance", "Montant Transaction", "P&L"};
+    public static final int COL_COMPOSITION_CODE = 2;
+    public static final int COL_COMPOSITION_SHORT_LONG = 0;
+    public static final int COL_COMPOSITION_QUANTITE = 3;
+    public static final int COL_COMPOSITION_PRIX_MOYEN = 4;
+    public static final int COL_COMPOSITION_PRIX_MARCHE = 5;
+    public static final int COL_COMPOSITION_PRIX_PERFORMANCE = 6;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_BUY_SELL = 1;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_MONTANT_TRANSACTION = 7;
+    public static final int COL_COMPOSITION_PRIX_PROPAL_PL = 8;
 
 
     public static final String[] entetesPortfeuilleDetail = {"Nom", "Liquidite", "Montant Initial", "P&L", "Fees"};

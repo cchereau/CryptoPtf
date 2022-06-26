@@ -2,10 +2,14 @@ package gui.screenPosition;
 
 import global.EnumCrypto;
 import global.GlobalCte;
+import global.fonction.FntGUI;
 import gui.commonComponent.RenderCellule.RenderCurrencyWithColor;
+import gui.commonComponent.RenderCellule.RenderPercentageWithColor;
+import gui.screenPortfolio.Strategie.JPanelPriceEvolution;
 import ptfManagement.Composition;
 import ptfManagement.Portefeuille;
 import ptfManagement.Position;
+import stock.StockComposite;
 
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
@@ -14,51 +18,60 @@ import java.util.ArrayList;
 
 public class JPanelComposition extends JPanel {
     private final TableModelPositionComposition tableModelPositionComposition = new TableModelPositionComposition();
+    private final JPanelPriceEvolution panelPriceEvolution;
+    private ArrayList<Composition> compositions = new ArrayList<>();
+
 
     public JPanelComposition() {
         super(new GridBagLayout());
+
+        // Tableau des compostions
         JTable tableauComposition = new JTable();
         JScrollPane scrollTablePosition = new JScrollPane(tableauComposition);
-
-        //RowSorter<TableModel> sorter = new TableRowSorter(tableauComposition);
-        //tableauComposition.setRowSorter(sorter);
         tableauComposition.setModel(tableModelPositionComposition);
         tableauComposition.setEnabled(true);
+
+        // Graphique des prix
+        panelPriceEvolution = new JPanelPriceEvolution();
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // PAGE DETAIL POSITIONS - scrollTablePosition
         ////////////////////////////////////////////////////////////////////////////////////////////////////////
         // alimentation du tableau des positions
-        //tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_CODE).setCellRenderer(new RenderNumberWithColor(false));
-        //tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_SHORT_LONG).setCellRenderer(new RenderCurrencyWithColor(false));
         tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_QUANTITE).setCellRenderer(new RenderCurrencyWithColor(false));
         tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_PRIX_MOYEN).setCellRenderer(new RenderCurrencyWithColor(false));
         tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_PRIX_MARCHE).setCellRenderer(new RenderCurrencyWithColor(true));
-        //tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_PRIX_PROPAL_BUY_SELL).setCellRenderer(new RenderPercentageWithColor(true));
-        //tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_PRIX_PROPAL_PL).setCellRenderer(new RenderPercentageWithColor(true));
+        tableauComposition.getColumnModel().getColumn(GlobalCte.COL_COMPOSITION_PRIX_PERFORMANCE).setCellRenderer(new RenderPercentageWithColor(true));
 
         this.setLayout(new GridBagLayout());
         GridBagConstraints gbcPositions = new GridBagConstraints();
         gbcPositions.fill = GridBagConstraints.BOTH;
-        gbcPositions.weightx = gbcPositions.weighty = 1;
-        gbcPositions.gridx = 0;
-        gbcPositions.gridy = 0;
+        FntGUI.setBagContraint(gbcPositions, 0, 0, 1, 1, 0.8f, 1f);
         this.add(tableauComposition.getTableHeader(), gbcPositions);
-        gbcPositions.gridx = 0;
-        gbcPositions.gridy = 1;
+        FntGUI.setBagContraint(gbcPositions, 0, 1, 1, 1, 0.8f, 1f);
         this.add(scrollTablePosition, gbcPositions);
-        gbcPositions.gridx = 0;
-        gbcPositions.gridy = 2;
+        FntGUI.setBagContraint(gbcPositions, 0, 2, 1, 1, 0.8f, 1f);
         this.add(scrollTablePosition, gbcPositions);
+        FntGUI.setBagContraint(gbcPositions, 0, 3, 1, 1, 0.8f, 1f);
+        this.add(panelPriceEvolution, gbcPositions);
+
+        // ajout des listner
+        tableauComposition.getSelectionModel().addListSelectionListener(event -> OnSelectLine(tableauComposition.getSelectedRow()));
+
     }
 
+
     public void setPosition(Portefeuille ptf, Position position) {
-
         // chatrgement des données
-        ArrayList<Composition> compositions = global.fonction.gblFunction.getPositionComposition(ptf, position.getInstName());
-
-
+        compositions = global.fonction.gblFunction.getPositionComposition(ptf, position.getInstName());
         tableModelPositionComposition.addAll(compositions);
+    }
+
+
+    private void OnSelectLine(int row) {
+        StockComposite stockComposite = compositions.get(row).getStock();
+        panelPriceEvolution.setStocks(stockComposite, EnumCrypto.enPeriodePerformance.MONTH);
+        this.repaint();
     }
 
 
@@ -100,35 +113,18 @@ public class JPanelComposition extends JPanel {
             Object result;
             Composition p = compositions.get(row);
 
-            switch (col) {
-                case GlobalCte.COL_COMPOSITION_CODE:
-                    result = p.getInstrument();
-                    break;
-                case GlobalCte.COL_COMPOSITION_SHORT_LONG:
-                    result = p.getPositionShortLong().toString();
-                    break;
-                case GlobalCte.COL_COMPOSITION_QUANTITE:
-                    result = Math.abs(p.getQuantite());
-                    break;
-                case GlobalCte.COL_COMPOSITION_PRIX_MOYEN:
-                    result = p.getPrixMoyen();
-                    break;
-                case GlobalCte.COL_COMPOSITION_PRIX_MARCHE:
-                    result = p.getPrixMarche();
-                    break;
-                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_BUY_SELL:
-                    result = EnumCrypto.enSimulationResultat.StandBy;
-                    break;
-                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_QUANTITE:
-                    result = 0d;
-                    break;
-                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_PL:
-                    result = 0d;
-                    break;
-                default:
-                    result = null;
-                    break;
-            }
+            result = switch (col) {
+                case GlobalCte.COL_COMPOSITION_CODE -> p.getInstrument();
+                case GlobalCte.COL_COMPOSITION_SHORT_LONG -> p.getPositionShortLong().toString();
+                case GlobalCte.COL_COMPOSITION_QUANTITE -> Math.abs(p.getQuantite());
+                case GlobalCte.COL_COMPOSITION_PRIX_MOYEN -> p.getPrixMoyen();
+                case GlobalCte.COL_COMPOSITION_PRIX_MARCHE -> p.getPrixMarche();
+                case GlobalCte.COL_COMPOSITION_PRIX_PERFORMANCE -> p.getPerformanceAvgMkt();
+                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_BUY_SELL -> p.getResultatSimulation();
+                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_MONTANT_TRANSACTION -> p.getQuantite() * p.getPrixMarche();
+                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_PL -> p.getQuantite() * (p.getPrixMarche() - p.getPrixMoyen());
+                default -> null;
+            };
             return result;
         }
 
@@ -136,7 +132,7 @@ public class JPanelComposition extends JPanel {
         public Class<?> getColumnClass(int columnIndex) {
             return switch (columnIndex) {
                 case GlobalCte.COL_COMPOSITION_CODE, GlobalCte.COL_COMPOSITION_SHORT_LONG, GlobalCte.COL_COMPOSITION_PRIX_PROPAL_BUY_SELL -> String.class;
-                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_PL, GlobalCte.COL_COMPOSITION_PRIX_PROPAL_QUANTITE, GlobalCte.COL_COMPOSITION_PRIX_MOYEN, GlobalCte.COL_COMPOSITION_PRIX_MARCHE, GlobalCte.COL_COMPOSITION_QUANTITE -> Double.class;
+                case GlobalCte.COL_COMPOSITION_PRIX_PROPAL_PL, GlobalCte.COL_COMPOSITION_PRIX_PROPAL_MONTANT_TRANSACTION, GlobalCte.COL_COMPOSITION_PRIX_MOYEN, GlobalCte.COL_COMPOSITION_PRIX_MARCHE, GlobalCte.COL_COMPOSITION_QUANTITE -> Double.class;
                 default -> null;
             };
         }

@@ -61,7 +61,7 @@ public class JDialogStockComposite extends JFrame {
 
         /////////////////////////////////////////TABLE////////////////////////////////////////////////
         this.panelPriceEvolutionTable = new JPanelPriceEvolutionTable();
-        //this.panelPriceEvolutionTable.setListenerLineSelected(this);
+        //this.panelPriceEvolutionTable.setListenerLineSelected();
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // COMPOSITION DE LA PAGE

@@ -6,7 +6,6 @@ import global.GlobalCte;
 import global.fonction.FntDates;
 import global.fonction.FntGUI;
 import gui.commonComponent.Component.JLabelCustomized;
-import stock.Stock;
 import stock.StockComposite;
 
 import javax.swing.*;
@@ -74,18 +73,18 @@ public class JPanelPriceEvolutionDetail extends JPanel {
         this.add(valDevise3Start, gbcPanelDetail);
     }
 
-    public void setStocks(Stock from, Stock to, StockComposite stockComposite, enPeriodePerformance periodePerformance) {
-        lblDevise1.setText(from.getNom());
-        lblDevise2.setText(to.getNom());
-        lblDevise3.setText(from.getNom() + "/" + to.getNom());
+    public void setStocks(StockComposite stockComposite, enPeriodePerformance periodePerformance) {
+        lblDevise1.setText(stockComposite.getStockFrom().getNom());
+        lblDevise2.setText(stockComposite.getStockTo().getNom());
+        lblDevise3.setText(stockComposite.getStockFrom().getNom() + "/" + stockComposite.getStockTo().getNom());
         LocalDate dateEnd = stockComposite.getNearDate(LocalDate.now());
         LocalDate datStart = FntDates.getDateFromPeriod(dateEnd, periodePerformance, true);
         lblEnd.setText(dateEnd.toString());
         lblStart.setText(datStart.toString());
-        valDevise1End.setValue(from.getQuotation(dateEnd, EnumCrypto.enTypeQuotation.close));
-        valDevise1Start.setValue(from.getQuotation(datStart, EnumCrypto.enTypeQuotation.close));
-        valDevise2End.setValue(to.getQuotation(dateEnd, EnumCrypto.enTypeQuotation.close));
-        valDevise2Start.setValue(to.getQuotation(datStart, EnumCrypto.enTypeQuotation.close));
+        valDevise1End.setValue(stockComposite.getStockFrom().getQuotation(dateEnd, EnumCrypto.enTypeQuotation.close));
+        valDevise1Start.setValue(stockComposite.getStockFrom().getQuotation(datStart, EnumCrypto.enTypeQuotation.close));
+        valDevise2End.setValue(stockComposite.getStockTo().getQuotation(dateEnd, EnumCrypto.enTypeQuotation.close));
+        valDevise2Start.setValue(stockComposite.getStockTo().getQuotation(datStart, EnumCrypto.enTypeQuotation.close));
         valDevise3End.setValue(stockComposite.getQuotation(dateEnd, EnumCrypto.enTypeQuotation.close));
         valDevise3Start.setValue(stockComposite.getQuotation(datStart, EnumCrypto.enTypeQuotation.close));
     }

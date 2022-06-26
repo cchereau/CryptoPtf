@@ -60,7 +60,7 @@ public class JPanelPortfolioStrategiePrice extends JPanel implements ListnerChan
 
     public void refresh() {
         if ((stockFrom != null) || (stockTo != null))
-            panelPriceEvolution.setStocks(stockFrom, stockTo, stockComposite, this.cmbPerformance.getItemAt(this.cmbPerformance.getSelectedIndex()));
+            panelPriceEvolution.setStocks(stockComposite, this.cmbPerformance.getItemAt(this.cmbPerformance.getSelectedIndex()));
     }
 
 

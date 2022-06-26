@@ -118,7 +118,6 @@ public class JPanelStockGraph extends JPanel {
         checkBoxMM20.setSelected(false);
         checkBoxMM50.setSelected(false);
         panelGraph.removeSerie(true, null);
-        //cmbPeriod.setSelectedIndex(cmbPeriod.getSelectedIndex());
 
     }
 }
